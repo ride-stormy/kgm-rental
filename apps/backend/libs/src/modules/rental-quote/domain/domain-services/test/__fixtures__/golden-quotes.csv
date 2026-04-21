@@ -1,0 +1,26 @@
+case_id,category,note,skuId,vehicleSlug,contractPeriod,annualMileage,prepaidRate,depositRate,maintenancePackage,expected_standardRent,expected_prepaidDeduction,expected_finalMonthlyRent,expected_residualValue,expected_prepaidAmount,expected_depositAmount,expected_initialBurden,expected_supplyPrice,expected_vat,source
+1,baseline-xlsm,xlsm 캐시 원본 (액티언 1.5T HEV 36M / 20k / 선납30 / 보증0 / Select),actyon-hev-s8,actyon-hev,36,20000,30,0,Select,528220,-339080,189140,29297000,12207000,0,12207000,480200,48020,xlsm-1원일치
+2,no-prepaid-no-deposit,기본값 (선납·보증 0) — standardRent 그대로,actyon-hev-s8,actyon-hev,36,20000,0,0,Select,528220,0,528220,29297000,0,0,0,480200,48020,regression
+3,prepaid-10,선납 10%,actyon-hev-s8,actyon-hev,36,20000,10,0,Select,528220,-113020,415200,29297000,4069000,0,4069000,480200,48020,regression
+4,prepaid-20,선납 20%,actyon-hev-s8,actyon-hev,36,20000,20,0,Select,528220,-226050,302170,29297000,8138000,0,8138000,480200,48020,regression
+5,deposit-10,보증 10%,actyon-hev-s8,actyon-hev,36,20000,0,10,Select,528220,0,528220,29297000,0,4069000,4069000,480200,48020,regression
+6,deposit-20,보증 20%,actyon-hev-s8,actyon-hev,36,20000,0,20,Select,528220,0,528220,29297000,0,8138000,8138000,480200,48020,regression
+7,deposit-30,보증 30%,actyon-hev-s8,actyon-hev,36,20000,0,30,Select,528220,0,528220,29297000,0,12207000,12207000,480200,48020,regression
+8,combo-20-30,선납+보증 합 50% 경계 (20+30),actyon-hev-s8,actyon-hev,36,20000,20,30,Select,528220,-226050,302170,29297000,8138000,12207000,20345000,480200,48020,regression
+9,combo-30-20,선납+보증 합 50% 경계 (30+20),actyon-hev-s8,actyon-hev,36,20000,30,20,Select,528220,-339080,189140,29297000,12207000,8138000,20345000,480200,48020,regression
+10,period-24,계약기간 24개월 (plausible 이율·잔가 기반),actyon-hev-s8,actyon-hev,24,20000,0,0,Select,561220,0,561220,31739000,0,0,0,510200,51020,regression-plausible
+11,period-48,계약기간 48개월 (plausible),actyon-hev-s8,actyon-hev,48,20000,0,0,Select,525800,0,525800,26042000,0,0,0,478000,47800,regression-plausible
+12,period-60,계약기간 60개월 (plausible),actyon-hev-s8,actyon-hev,60,20000,0,0,Select,528660,0,528660,22380000,0,0,0,480600,48060,regression-plausible
+13,mileage-10k,"주행거리 10,000km (plausible)",actyon-hev-s8,actyon-hev,36,10000,0,0,Select,459470,0,459470,31332000,0,0,0,417700,41770,regression-plausible
+14,mileage-15k,"주행거리 15,000km (plausible)",actyon-hev-s8,actyon-hev,36,15000,0,0,Select,488070,0,488070,30518000,0,0,0,443700,44370,regression-plausible
+15,mileage-25k,"주행거리 25,000km (plausible)",actyon-hev-s8,actyon-hev,36,25000,0,0,Select,559130,0,559130,28483000,0,0,0,508300,50830,regression-plausible
+16,mileage-30k,"주행거리 30,000km (plausible)",actyon-hev-s8,actyon-hev,36,30000,0,0,Select,590590,0,590590,27670000,0,0,0,536900,53690,regression-plausible
+17,preset-none,정비 NONE 프리셋 (정비 0원 처리),actyon-hev-s8,actyon-hev,36,20000,30,0,NONE,474320,-339080,135240,29297000,12207000,0,12207000,431200,43120,regression
+18,short-term-low-mileage,24M / 10k 조합 (plausible),actyon-hev-s8,actyon-hev,24,10000,0,0,Select,463540,0,463540,33773000,0,0,0,421400,42140,regression-plausible
+19,long-term-high-mileage,60M / 30k 조합 (plausible),actyon-hev-s8,actyon-hev,60,30000,0,0,Select,572220,0,572220,20752000,0,0,0,520200,52020,regression-plausible
+20,prepaid-30-deposit-20,선납 30 + 보증 20 = 합 50 (경계 통과),actyon-hev-s8,actyon-hev,36,20000,30,20,Select,528220,-339080,189140,29297000,12207000,8138000,20345000,480200,48020,regression
+21,all-zero-preset-none,정비 NONE + 선납 0 + 보증 0 (최소 원가),actyon-hev-s8,actyon-hev,36,20000,0,0,NONE,474320,0,474320,29297000,0,0,0,431200,43120,regression
+22,mileage-varied-prepaid,15k / 선납 20,actyon-hev-s8,actyon-hev,36,15000,20,0,Select,488070,-226050,262020,30518000,8138000,0,8138000,443700,44370,regression-plausible
+23,period-48-deposit-20,48M / 보증 20,actyon-hev-s8,actyon-hev,48,20000,0,20,Select,525800,0,525800,26042000,0,8138000,8138000,478000,47800,regression-plausible
+24,period-60-prepaid-30,60M / 선납 30,actyon-hev-s8,actyon-hev,60,20000,30,0,Select,528660,-203450,325210,22380000,12207000,0,12207000,480600,48060,regression-plausible
+25,preset-none-deposit-30,"정비 NONE + 보증 30 (정비 제외 상품, 계약금 지불)",actyon-hev-s8,actyon-hev,36,20000,0,30,NONE,474320,0,474320,29297000,0,12207000,12207000,431200,43120,regression

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["name", "version"],
+  "properties": {
+    "name": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "stack": {
+      "type": "object",
+      "properties": {
+        "frontend": { "type": ["string", "null"] },
+        "backend": { "type": ["string", "null"] },
+        "database": { "type": ["string", "null"] },
+        "orm": { "type": ["string", "null"] },
+        "styling": { "type": ["string", "null"] },
+        "state": { "type": ["string", "null"] },
+        "testing": { "type": ["string", "null"] }
+      }
+    },
+    "architecture": {
+      "type": "string",
+      "enum": ["flat", "mvc", "ddd-3layer", "ddd-4layer", "clean", "hexagonal", "custom"]
+    },
+    "commands": {
+      "type": "object",
+      "properties": {
+        "build": { "type": ["string", "null"] },
+        "typecheck": { "type": ["string", "null"] },
+        "lint": { "type": ["string", "null"] },
+        "test": { "type": ["string", "null"] },
+        "dev": { "type": ["string", "null"] },
+        "smokeTest": { "type": ["string", "null"] }
+      }
+    },
+    "eslintConfig": {
+      "type": "string",
+      "enum": ["recommended", "strict", "ddd"]
+    },
+    "designSystem": {
+      "type": ["object", "null"],
+      "properties": {
+        "package": { "type": "string" },
+        "themePath": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

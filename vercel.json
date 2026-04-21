@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm --filter @kgm-rental/frontend-b2c build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "apps/frontend/b2c/.next",
+  "framework": "nextjs",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./apps/frontend/b2c ./packages"
+}

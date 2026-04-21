@@ -1,0 +1,37 @@
+{
+  "name": "@kgm-rental/api-contracts",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./rental-quote/*.js": {
+      "types": "./dist/rental-quote/*.d.ts",
+      "default": "./dist/rental-quote/*.js"
+    },
+    "./product/*.js": {
+      "types": "./dist/product/*.d.ts",
+      "default": "./dist/product/*.js"
+    },
+    "./stock/*.js": {
+      "types": "./dist/stock/*.d.ts",
+      "default": "./dist/stock/*.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

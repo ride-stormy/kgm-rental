@@ -1,0 +1,18 @@
+{
+  "name": "rachelin",
+  "version": "1.0.0",
+  "description": "라슐랭 프로젝트 프로필",
+  "stack": {
+    "frontend": "React + TypeScript",
+    "backend": "Nest.js + TypeScript",
+    "database": "MySQL",
+    "styling": "Tailwind CSS"
+  },
+  "architecture": "custom",
+  "commands": {
+    "build": "pnpm build",
+    "lint": "pnpm lint",
+    "test": "pnpm test"
+  },
+  "eslintConfig": "recommended"
+}

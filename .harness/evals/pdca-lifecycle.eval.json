@@ -1,0 +1,12 @@
+{
+  "id": "pdca-lifecycle",
+  "name": "PDCA 라이프사이클 평가",
+  "type": "workflow",
+  "perspectives": [
+    { "id": "completeness", "name": "완성도", "weight": 0.4 },
+    { "id": "quality", "name": "품질", "weight": 0.4 },
+    { "id": "process", "name": "프로세스 준수", "weight": 0.2 }
+  ],
+  "threshold": 80,
+  "description": "PDCA 전체 라이프사이클의 품질을 평가한다"
+}

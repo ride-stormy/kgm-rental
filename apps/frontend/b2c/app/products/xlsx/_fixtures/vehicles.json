@@ -1,0 +1,3701 @@
+{
+  "products": [
+    {
+      "id": "pm_2025-torres",
+      "slug": "2025-torres",
+      "name": "2025 토레스",
+      "brandName": "KGM",
+      "heroImage": "/images/products/torres-hero.jpg",
+      "vehicleTypeDefault": "ICE",
+      "minMonthlyRent": 562320,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [
+        "첫 달 0원"
+      ],
+      "description": "정통 SUV의 당당함과 실용성을 겸비한 2025 토레스.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "ND0J5C-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5C",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 35690000,
+          "stockBucket": 26,
+          "productionPeriods": [
+            "25.10",
+            "25.11",
+            "25.12",
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0J7S-LAK",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J7S",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "운전석 무릎 에어백",
+            "파노라마 선루프",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 38240000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0J56-EBL",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J56",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "EBL",
+          "colorExteriorName": "EBL",
+          "colorInteriorCode": null,
+          "options": [
+            "파노라마 선루프",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 37990000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0J5N-2WA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5N",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "2WA",
+          "colorExteriorName": "2WA",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트(브라운)",
+            "투톤 익스테리어 패키지",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 39340000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0J5K-LAK",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5K",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 38840000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0J5K-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5K",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 38840000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0J6M-LAK",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J6M",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "운전석 무릎 에어백",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 39090000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0J5G-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5G",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36790000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "25.12"
+          ]
+        },
+        {
+          "id": "ND0J5G-LAK",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5G",
+          "modelCode": "MW5",
+          "trim": "블랙엣지",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36790000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.12"
+          ]
+        },
+        {
+          "id": "ND0J5C-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J5C",
+          "modelCode": "MW5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽 시트(브라운)",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 35690000,
+          "stockBucket": 26,
+          "productionPeriods": [
+            "25.10",
+            "25.11"
+          ]
+        },
+        {
+          "id": "ND0J53-ADE",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J53",
+          "modelCode": "MW5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "ADE",
+          "colorExteriorName": "ADE",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36790000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.10"
+          ]
+        },
+        {
+          "id": "ND0J54-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0J54",
+          "modelCode": "MW5",
+          "trim": "블랙엣지 AWD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "파노라마 선루프",
+            "블랙 엣지 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 38940000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.10"
+          ]
+        },
+        {
+          "id": "NS0566-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "NS0566",
+          "modelCode": "MW5",
+          "trim": "T5",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "밸류업 패키지",
+            "12.3인치 KGM링크 내비게이션 패키지 + 인텔리전트어댑티브그루즈컨트롤",
+            "딥컨트롤 패키지 2 + 스마트 파워 테일게이트 패키지"
+          ],
+          "price": 32540000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.02",
+            "26.03"
+          ]
+        },
+        {
+          "id": "NS0562-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "NS0562",
+          "modelCode": "MW5",
+          "trim": "T5",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "밸류업 패키지",
+            "12.3인치 KGM링크 내비게이션 패키지 + 인텔리전트어댑티브그루즈컨트롤"
+          ],
+          "price": 31240000,
+          "stockBucket": 6,
+          "productionPeriods": [
+            "25.12",
+            "26.03"
+          ]
+        },
+        {
+          "id": "NS0562-GAO",
+          "productModelId": "pm_2025-torres",
+          "specCode": "NS0562",
+          "modelCode": "MW5",
+          "trim": "T5",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "GAO",
+          "colorExteriorName": "GAO",
+          "colorInteriorCode": null,
+          "options": [
+            "밸류업 패키지",
+            "12.3인치 KGM링크 내비게이션 패키지 + 인텔리전트어댑티브그루즈컨트롤"
+          ],
+          "price": 31240000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "NS0562-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "NS0562",
+          "modelCode": "MW5",
+          "trim": "T5 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "밸류업 패키지",
+            "12.3인치 KGM링크 내비게이션 패키지 + 인텔리전트어댑티브그루즈컨트롤"
+          ],
+          "price": 31240000,
+          "stockBucket": 13,
+          "productionPeriods": [
+            "25.10",
+            "25.11"
+          ]
+        },
+        {
+          "id": "ND0G34-ADE",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G34",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "ADE",
+          "colorExteriorName": "ADE",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34230000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0GRJ-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GRJ",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "파노라마 선루프",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2",
+            "천연 가죽시트(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36080000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0GBH-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GBH",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2",
+            "천연 가죽시트(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34880000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0GBH-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GBH",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2",
+            "천연 가죽시트(브라운)",
+            "이머전시 이스케이프 키느"
+          ],
+          "price": 34880000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0GTW-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GTW",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트 파워 테일게이트 패키지",
+            "딥컨트롤패키지 2",
+            "천연가죽시트(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 35630000,
+          "stockBucket": 3,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0G9B-ADE",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G9B",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "ADE",
+          "colorExteriorName": "ADE",
+          "colorInteriorCode": null,
+          "options": [
+            "20인치 다이아몬드 커팅 휠 & 타이어",
+            "딥컨트롤 패키지 2",
+            "브라운 인테리어 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34030000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0G3S-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G3S",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥컨트롤 패키지 2",
+            "하이 컴포트 패키지(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34930000,
+          "stockBucket": 14,
+          "productionPeriods": [
+            "25.12",
+            "26.02",
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0GQ0-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GQ0",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트 파워 테일게이트 패키지",
+            "딥컨트롤 패키지 2",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 37030000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0G34-EBL",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G34",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "EBL",
+          "colorExteriorName": "EBL",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34230000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0G04-EBL",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G04",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "EBL",
+          "colorExteriorName": "EBL",
+          "colorInteriorCode": null,
+          "options": [
+            "브라운 인테리어 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 32730000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0GT0-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GT0",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트 파워 테일게이트 패키지",
+            "딥 컨트롤패키지 2",
+            "천연가죽시트(그레이)",
+            "이머전시 이스케이프 시트"
+          ],
+          "price": 35630000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0GRC-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GRC",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "파노라마 선루프",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트 파워 테일게이트 패키지",
+            "딥컨트롤 패키지2",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36180000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0G3B-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G3B",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "스파트 파워 테일케이트 패키지",
+            "딥컨트롤 패키지 2",
+            "천연 가죽시트(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34530000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "ND0G1P-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G1P",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "파노라마 선루프",
+            "천연가죽 시트 (브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34330000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0GTF-EBL",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GTF",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "EBL",
+          "colorExteriorName": "EBL",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤패키지 2",
+            "하이 컴포트 패키지 (브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36030000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0GH1-2WA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GH1",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "2WA",
+          "colorExteriorName": "2WA",
+          "colorInteriorCode": null,
+          "options": [
+            "투톤 익스테리어 패키지",
+            "스마트 파워 테일게이트 패키지",
+            "딥컨트롤 패키지 2",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36430000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0G3Y-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G3Y",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "스마트 파워 테일케이트 패키지",
+            "딥컨트롤 패키지 2",
+            "그레이 인테리어 패키지",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34130000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0G0Y-GAO",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G0Y",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "GAO",
+          "colorExteriorName": "GAO",
+          "colorInteriorCode": null,
+          "options": [
+            "딥컨트롤 패키지 2",
+            "하이 컴포트 패키지 (블랙)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34930000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "ND0GTF-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GTF",
+          "modelCode": "MW5",
+          "trim": "T7",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤패키지 2",
+            "하이 컴포트 패키지 (브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36030000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "25.11",
+            "25.12"
+          ]
+        },
+        {
+          "id": "ND0G3S-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G3S",
+          "modelCode": "MW5",
+          "trim": "T7 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥컨트롤 패키지 2",
+            "하이 컴포트 패키지(브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 34930000,
+          "stockBucket": 4,
+          "productionPeriods": [
+            "25.11"
+          ]
+        },
+        {
+          "id": "ND0GTF-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GTF",
+          "modelCode": "MW5",
+          "trim": "T7 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤패키지 2",
+            "하이 컴포트 패키지 (브라운)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36030000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.11"
+          ]
+        },
+        {
+          "id": "ND0G00-BAS",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0G00",
+          "modelCode": "MW5",
+          "trim": "T7 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "BAS",
+          "colorExteriorName": "BAS",
+          "colorInteriorCode": null,
+          "options": [
+            "이머전시 이스케이프 키트,(사이드스텝,스포츠페달)"
+          ],
+          "price": 32480000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.11"
+          ]
+        },
+        {
+          "id": "ND0GT6-WAA",
+          "productModelId": "pm_2025-torres",
+          "specCode": "ND0GT6",
+          "modelCode": "MW5",
+          "trim": "T7 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤패키지 2",
+            "하이 컴포트 패키지(그레이)",
+            "이머전시 이스케이프 키트"
+          ],
+          "price": 36030000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "25.11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_musso",
+      "slug": "musso",
+      "name": "2026 무쏘",
+      "brandName": "KGM",
+      "heroImage": "/images/products/musso-hero.jpg",
+      "vehicleTypeDefault": "Diesel",
+      "minMonthlyRent": 690300,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [
+        "즉시 배송"
+      ],
+      "description": "프리미엄 픽업의 기준, 무쏘.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "SS3207-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS3207",
+          "modelCode": "UH5",
+          "trim": "4WD_디젤 M7",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D어라운드/딥컨트롤"
+          ],
+          "price": 43600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26-02-04"
+          ]
+        },
+        {
+          "id": "SS3207-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS3207",
+          "modelCode": "UH5",
+          "trim": "4WD_디젤 M7",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D어라운드/딥컨트롤"
+          ],
+          "price": 43350000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26-02-04"
+          ]
+        },
+        {
+          "id": "SS3220-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS3220",
+          "modelCode": "UP5",
+          "trim": "4WD_디젤 M7",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D어라운드/나파가죽(브라운)/딥컨트롤"
+          ],
+          "price": 42050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26-02-11"
+          ]
+        },
+        {
+          "id": "3S3200-EBK",
+          "productModelId": "pm_musso",
+          "specCode": "3S3200",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3200-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "3S3200",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40100000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3202-EBK",
+          "productModelId": "pm_musso",
+          "specCode": "3S3202",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 40700000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3202-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "3S3202",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 40700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3202-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "3S3202",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 40700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3205-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "3S3205",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 40750000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "3D3200-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "3D3200",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 44100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3D3201-BBE",
+          "productModelId": "pm_musso",
+          "specCode": "3D3201",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "BBE",
+          "colorExteriorName": "BBE",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 44600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3D3202-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "3D3202",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄",
+            "세이프티 선루프"
+          ],
+          "price": 44600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SS3205-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SS3205",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 42650000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.02",
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3206-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SS3206",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 42500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SS320M-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SS320M",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320Q-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SS320Q",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44250000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SS320Q-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS320Q",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44250000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SS320T-BBE",
+          "productModelId": "pm_musso",
+          "specCode": "SS320T",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "BBE",
+          "colorExteriorName": "BBE",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44250000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3215-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SS3215",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44750000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SD3200-GAM",
+          "productModelId": "pm_musso",
+          "specCode": "SD3200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 46000000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SD3200-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SD3200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 46000000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SD3200-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SD3200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 46000000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.02",
+            "26.03"
+          ]
+        },
+        {
+          "id": "SD3201-ACM",
+          "productModelId": "pm_musso",
+          "specCode": "SD3201",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 46500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SD3201-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SD3201",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 46500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SD3202-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SD3202",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄",
+            "세이프티 선루프"
+          ],
+          "price": 46500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "3S320T-GAM",
+          "productModelId": "pm_musso",
+          "specCode": "3S320T",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 38900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3S3229-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "3S3229",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "세이프티 선루프"
+          ],
+          "price": 40050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "3D3200-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "3D3200",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘 M9 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 39900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3205-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SS3205",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(블랙)"
+          ],
+          "price": 38350000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SS3201-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS3201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 39800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3208-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SS3208",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 40800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320M-EBK",
+          "productModelId": "pm_musso",
+          "specCode": "SS320M",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 40450000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320M-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SS320M",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 40450000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320T-WAA",
+          "productModelId": "pm_musso",
+          "specCode": "SS320T",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 40300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SS320U-BBE",
+          "productModelId": "pm_musso",
+          "specCode": "SS320U",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "BBE",
+          "colorExteriorName": "BBE",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 41400000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320V-GAM",
+          "productModelId": "pm_musso",
+          "specCode": "SS320V",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "스마트패키지",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 40900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS320V-LAK",
+          "productModelId": "pm_musso",
+          "specCode": "SS320V",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "스마트패키지",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 40900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS321A-OBH",
+          "productModelId": "pm_musso",
+          "specCode": "SS321A",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)"
+          ],
+          "price": 41450000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3220-ACM",
+          "productModelId": "pm_musso",
+          "specCode": "SS3220",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 42050000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SS3220-GAM",
+          "productModelId": "pm_musso",
+          "specCode": "SS3220",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 42050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SD0000-GAM",
+          "productModelId": "pm_musso",
+          "specCode": "SD0000",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M9 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 41700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SD3204-ACM",
+          "productModelId": "pm_musso",
+          "specCode": "SD3204",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 43800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_musso-grand",
+      "slug": "musso-grand",
+      "name": "2026 무쏘그랜드",
+      "brandName": "KGM",
+      "heroImage": "/images/products/musso-grand-hero.jpg",
+      "vehicleTypeDefault": "Diesel",
+      "minMonthlyRent": 671400,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [],
+      "description": "프리미엄 라지 픽업, 무쏘그랜드.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "3SA200-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA200",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "3SA20F-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA20F",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)"
+          ],
+          "price": 42550000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3DA200-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA200",
+          "modelCode": "UH5",
+          "trim": "L 가솔린 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 44900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA200-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 42800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA202-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA202",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 43400000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA205-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA205",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 43450000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA206-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA206",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 43300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SSA208-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA208",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "스마트패키지",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 43900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20E-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20E",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA20E-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20E",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA20K-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20K",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 43900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20S-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20S",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "스마트패키지",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 44550000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20T-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20T",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 45050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SSA20T-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20T",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 45050000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA213-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA213",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 44900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA213-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA213",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 44900000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA21D-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA21D",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 46050000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA200-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 46800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA200-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA200",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 46800000,
+          "stockBucket": 4,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA201-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA201",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 46800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA201-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA201",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 46800000,
+          "stockBucket": 6,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA202-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA202",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 47300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA202-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA202",
+          "modelCode": "UH5",
+          "trim": "L 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 47300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "3SA202-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA202",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 37300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3SA20F-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA20F",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2",
+            "나파가죽(브라운)"
+          ],
+          "price": 37950000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3SA207-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA207",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 38700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3SA20S-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA20S",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 39300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3SA22C-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA22C",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "나파가죽(브라운)"
+          ],
+          "price": 40850000,
+          "stockBucket": 5,
+          "productionPeriods": [
+            "26.02",
+            "26.03"
+          ]
+        },
+        {
+          "id": "3SA22T-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3SA22T",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링",
+            "시스템스마트패키지",
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 41450000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3DA201-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA201",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M9 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 40700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "3DA203-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA203",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 42700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3DA206-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA206",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 42700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3DA206-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA206",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 42700000,
+          "stockBucket": 3,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "3DA206-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "3DA206",
+          "modelCode": "UP5",
+          "trim": "S 가솔린 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 42700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA203-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA203",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 39100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20L-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20L",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)"
+          ],
+          "price": 40150000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA201-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SSA201-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA201-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 40600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA208-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA208",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 41600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20M-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20M",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)"
+          ],
+          "price": 41250000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA20T-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20T",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 41100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA20U-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA20U",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 42200000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA212-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA212",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 41850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA218-ACM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA218",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 41850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA218-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA218",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 41850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA220-BBE",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA220",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "BBE",
+          "colorExteriorName": "BBE",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 42850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SSA220-OBH",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA220",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "OBH",
+          "colorExteriorName": "OBH",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 42850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SSA22H-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA22H",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2"
+          ],
+          "price": 43350000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SSA22P-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA22P",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "나파가죽(블랙)",
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 43350000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SSA22U-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SSA22U",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M7 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "스마트패키지",
+            "나파가죽(브라운)",
+            "딥 컨트롤 패키지2",
+            "세이프티 선루프"
+          ],
+          "price": 43850000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SDA202-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA202",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 2WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 42500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA201-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 44600000,
+          "stockBucket": 3,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA201-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 44600000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA201-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA201",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 44600000,
+          "stockBucket": 14,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA205-BBE",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA205",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "BBE",
+          "colorExteriorName": "BBE",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 44600000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA205-EBK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA205",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "EBK",
+          "colorExteriorName": "EBK",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 44600000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA205-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA205",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄"
+          ],
+          "price": 44600000,
+          "stockBucket": 6,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "SDA207-LAK",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA207",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프"
+          ],
+          "price": 45100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.02"
+          ]
+        },
+        {
+          "id": "SDA209-GAM",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA209",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄",
+            "세이프티 선루프"
+          ],
+          "price": 45100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.01"
+          ]
+        },
+        {
+          "id": "SDA209-WAA",
+          "productModelId": "pm_musso-grand",
+          "specCode": "SDA209",
+          "modelCode": "UP5",
+          "trim": "S 디젤 무쏘그랜드 M9 4WD",
+          "vehicleType": "Diesel",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "나파가죽(브라운)프리미엄",
+            "세이프티 선루프"
+          ],
+          "price": 45100000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_musso-ev",
+      "slug": "musso-ev",
+      "name": "무쏘 EV",
+      "brandName": "KGM",
+      "heroImage": "/images/products/musso-ev-hero.jpg",
+      "vehicleTypeDefault": "EV",
+      "minMonthlyRent": 878400,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [
+        "EV 특판"
+      ],
+      "description": "진화한 전기 픽업, 무쏘 EV.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "9S041A-LAK",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S041A",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 50500000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S041A-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S041A",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 50500000,
+          "stockBucket": 7,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S0450-LAK",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S0450",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 51700000,
+          "stockBucket": 12,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S0450-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S0450",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 51700000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S045Q-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S045Q",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "세이프티 선루프"
+          ],
+          "price": 52300000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S0450-LAK",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S0450",
+          "modelCode": "OP5",
+          "trim": "블랙엣지 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템,블랙엣지 패키지"
+          ],
+          "price": 51700000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S041D-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S041D",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (브라운)",
+            "유틸리티 루프랙"
+          ],
+          "price": 48800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S0432-ACM",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S0432",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (브라운)",
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 49800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S0432-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S0432",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (브라운)",
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 49800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S044W-WAA",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S044W",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (브라운)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "유틸리티 루프랙"
+          ],
+          "price": 50000000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S044X-ACM",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S044X",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (블랙)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "유틸리티 루프랙"
+          ],
+          "price": 50000000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S044X-GAM",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S044X",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "GAM",
+          "colorExteriorName": "GAM",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (블랙)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "유틸리티 루프랙"
+          ],
+          "price": 50000000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "9S044Y-ACM",
+          "productModelId": "pm_musso-ev",
+          "specCode": "9S044Y",
+          "modelCode": "OP5",
+          "trim": "MX 2WD",
+          "vehicleType": "EV",
+          "displacement": 0,
+          "colorExteriorCode": "ACM",
+          "colorExteriorName": "ACM",
+          "colorInteriorCode": null,
+          "options": [
+            "천연 가죽시트 (그레이)",
+            "3D 어라운드 뷰 모니터링 시스템",
+            "유틸리티 루프랙"
+          ],
+          "price": 50000000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_actyon-hev",
+      "slug": "actyon-hev",
+      "name": "액티언 HEV",
+      "brandName": "KGM",
+      "heroImage": "/images/products/actyon-hev-hero.jpg",
+      "vehicleTypeDefault": "HEV",
+      "minMonthlyRent": 693720,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [
+        "연비 특화"
+      ],
+      "description": "하이브리드로 진화한 액티언 HEV.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "8D012A-WAA",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D012A",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "카멜/베이지 투톤 퀄팅 인테리어",
+            "딥컨트롤 패키지 2"
+          ],
+          "price": 39590000,
+          "stockBucket": 8,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0130-WAA",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0130",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤 패키지 2"
+          ],
+          "price": 40290000,
+          "stockBucket": 21,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0149-EBL",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0149",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "EBL",
+          "colorExteriorName": "EBL",
+          "colorInteriorCode": null,
+          "options": [
+            "카멜/베이지 투톤 퀄팅 인테리어",
+            "딥컨트롤 패키지 2",
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 40690000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0149-WAA",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0149",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "카멜/베이지 투톤 퀄팅 인테리어",
+            "딥컨트롤 패키지 2",
+            "3D 어라운드 뷰 모니터링 시스템"
+          ],
+          "price": 40690000,
+          "stockBucket": 34,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0000-LAK",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0000",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "-"
+          ],
+          "price": 38540000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0130-WAA",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0130",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D 어라운드 뷰 모니터링 시스템",
+            "딥컨트롤패키지 2"
+          ],
+          "price": 40290000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0136-LAK",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0136",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "카멜/베이지 투톤 퀄팅 인테리어",
+            "파노라마 선루프",
+            "20인치 미쉐린 흡음형 타이어"
+          ],
+          "price": 40740000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D014C-LAK",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D014C",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "LAK",
+          "colorExteriorName": "LAK",
+          "colorInteriorCode": null,
+          "options": [
+            "카멜/베이티 투톤 퀄팅 인테리어",
+            "딥컨트롤 패키지 2",
+            "파노라마 선루프",
+            "20인치 미쉐린 흡음형 타이어"
+          ],
+          "price": 41390000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "8D0149-WAA",
+          "productModelId": "pm_actyon-hev",
+          "specCode": "8D0149",
+          "modelCode": "MD5",
+          "trim": "하이브리드 S8",
+          "vehicleType": "HEV",
+          "displacement": 1497,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "3D어라운드/딥컨트롤/카멜베이지"
+          ],
+          "price": 40690000,
+          "stockBucket": 2,
+          "productionPeriods": [
+            "26-02-24"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pm_tivoli",
+      "slug": "tivoli",
+      "name": "티볼리",
+      "brandName": "KGM",
+      "heroImage": "/images/products/tivoli-hero.jpg",
+      "vehicleTypeDefault": "ICE",
+      "minMonthlyRent": 392400,
+      "colorSwatch": [
+        {
+          "code": "WAA",
+          "name": "그랜드 화이트",
+          "hex": "#F5F5F5"
+        }
+      ],
+      "promotionTags": [],
+      "description": "도심형 컴팩트 SUV, 티볼리.",
+      "fixedPreset": {
+        "maintenancePackage": "Select",
+        "maturityOption": "만기선택형",
+        "winterOption": "chain-no",
+        "region": "서울/경기/인천"
+      },
+      "skus": [
+        {
+          "id": "JS040B-WAA",
+          "productModelId": "pm_tivoli",
+          "specCode": "JS040B",
+          "modelCode": "XW5",
+          "trim": "2026 티볼리 1.6 V1 2WD",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "9인치 내비게이션 패키지",
+            "밸류업 패키지"
+          ],
+          "price": 21800000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        },
+        {
+          "id": "ND0F5S-WAA",
+          "productModelId": "pm_tivoli",
+          "specCode": "ND0F5S",
+          "modelCode": "XW5",
+          "trim": "티볼리 1.5 V7 2WD_12월",
+          "vehicleType": "ICE",
+          "displacement": 1998,
+          "colorExteriorCode": "WAA",
+          "colorExteriorName": "그랜드 화이트",
+          "colorInteriorCode": null,
+          "options": [
+            "세이프티 선루프",
+            "인포콘 커넥티비티 패키지 1",
+            "익스테리어스타일패키지 1",
+            "프런트 패션 가니쉬",
+            "휠아치/사이드실 가니쉬"
+          ],
+          "price": 27890000,
+          "stockBucket": 1,
+          "productionPeriods": [
+            "26.03"
+          ]
+        }
+      ]
+    }
+  ]
+}

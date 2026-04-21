@@ -1,0 +1,13 @@
+.harness
+docs
+mocks
+pre-docs
+asset
+apps/backend
+**/node_modules
+**/.next
+**/.turbo
+**/dist
+**/*.tsbuildinfo
+*.log
+.DS_Store

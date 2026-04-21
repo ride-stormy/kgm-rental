@@ -1,0 +1,14 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "stack": {},
+  "architecture": "custom",
+  "commands": {
+    "build": "echo 'no build configured'",
+    "typecheck": "echo 'no typecheck configured'",
+    "lint": "echo 'no lint configured'",
+    "smokeTest": "echo 'no smokeTest configured'"
+  },
+  "eslintConfig": "recommended",
+  "designSystem": null
+}

@@ -1,0 +1,50 @@
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
+  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          DEFAULT: '#0F172A',
+          accent: '#2563EB',
+        },
+        kgm: {
+          purple: {
+            600: '#2e2c4b',
+          },
+        },
+        blue: {
+          50: '#e6f4ff',
+          100: '#cfeaff',
+          200: '#a7d8ff',
+          500: '#0a93ff',
+          600: '#0a93ff',
+          700: '#007fe0',
+        },
+        gray: {
+          50: '#f7f9fa',
+          100: '#f1f4f6',
+          200: '#e7edf0',
+          300: '#cfd6d9',
+          400: '#aeb7bc',
+          500: '#6e777c',
+          600: '#5e696e',
+          700: '#4a5256',
+          800: '#353c3f',
+          900: '#222729',
+        },
+      },
+      fontFamily: {
+        sans: ['Pretendard', 'system-ui', '-apple-system', 'sans-serif'],
+      },
+      boxShadow: {
+        'kgm-1dp': '0 2px 4px 0 rgba(53, 60, 63, 0.04)',
+        'kgm-4dp': '0 2px 20px 0 rgba(53, 60, 63, 0.08)',
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;

@@ -1,0 +1,18 @@
+{
+  "name": "ride-hr",
+  "version": "1.0.0",
+  "description": "ride-hr 프로젝트 프로필",
+  "stack": {
+    "frontend": "React + TypeScript",
+    "backend": "Nest.js + TypeScript",
+    "database": "MySQL",
+    "styling": "Tailwind CSS"
+  },
+  "architecture": "ddd-4layer",
+  "commands": {
+    "build": "pnpm build",
+    "lint": "pnpm lint",
+    "test": "pnpm test"
+  },
+  "eslintConfig": "recommended"
+}

@@ -1,0 +1,28 @@
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+coverage/
+*.log
+.DS_Store
+.env
+.env.local
+.env.*.local
+!.env.example
+.vscode/
+.idea/
+*.tsbuildinfo
+
+# Legacy / backup folders
+.harness.backup-*/
+.harness.legacy-profiles/
+.bkit/
+
+# Harness runtime state (do not commit audit logs, session files)
+.harness/logs/
+.harness/checkpoints/
+.harness/state/
+
+# Figma analysis artifacts (local scratch)
+.figma-impl/

@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "kgm-rental",
+    "designSystem": null
+  },
+  "pdca": {
+    "maxIterations": 5,
+    "matchRateThreshold": 90,
+    "autoArchive": false
+  },
+  "automation": {
+    "defaultLevel": 2,
+    "trustScoreEnabled": true,
+    "autoEscalation": false,
+    "autoDowngrade": true,
+    "emergencyStopEnabled": true
+  },
+  "structure": {
+    "enforce": true
+  },
+  "legacy": {
+    "stackPreset": "blank"
+  },
+  "verification": {
+    "commands": {
+      "build": "pnpm --filter @kgm-rental/frontend-b2c build",
+      "typecheck": "pnpm --filter @kgm-rental/frontend-b2c typecheck",
+      "lint": "pnpm --filter @kgm-rental/frontend-b2c lint",
+      "dev": "pnpm --filter @kgm-rental/frontend-b2c dev",
+      "smokeTest": "pnpm --filter @kgm-rental/frontend-b2c build"
+    },
+    "frontend": true,
+    "designSystem": null
+  }
+}

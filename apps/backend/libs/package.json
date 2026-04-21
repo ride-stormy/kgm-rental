@@ -1,0 +1,48 @@
+{
+  "name": "@kgm-rental/backend-libs",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./modules/*.js": {
+      "types": "./dist/modules/*.d.ts",
+      "default": "./dist/modules/*.js"
+    },
+    "./infrastructure/*.js": {
+      "types": "./dist/infrastructure/*.d.ts",
+      "default": "./dist/infrastructure/*.js"
+    },
+    "./migrations/*.js": {
+      "types": "./dist/migrations/*.d.ts",
+      "default": "./dist/migrations/*.js"
+    },
+    "./seeds/*.js": {
+      "types": "./dist/modules/reference-data/infrastructure/seeds/*.d.ts",
+      "default": "./dist/modules/reference-data/infrastructure/seeds/*.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "extract:xlsm": "node src/infrastructure/seeders/extract-xlsm.mjs"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "@vitest/coverage-v8": "^4.1.4",
+    "pg": "^8.20.0",
+    "pg-mem": "^3.0.14",
+    "typescript": "^5.6.3",
+    "vitest": "^4.1.4"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ridenow-fullstack",
+  "version": "1.0.0",
+  "stack": {
+    "monorepo": "pnpm + Turborepo",
+    "frontend": "React 19 + Vite 6 (admin SPA), Next.js 15 (b2c SSR)",
+    "backend": "NestJS 10",
+    "database": "PostgreSQL",
+    "orm": "TypeORM",
+    "styling": "Vanilla Extract",
+    "routing": "TanStack Router (file-based)",
+    "serverState": "TanStack Query v5",
+    "clientState": "Zustand 5",
+    "http": "ky",
+    "forms": "React Hook Form + Zod",
+    "auth": "JWT (Access 15min memory + Refresh 7d httpOnly cookie)",
+    "testing": "Vitest + Testing Library (FE), Jest + Supertest (BE)",
+    "ui": "@ridenow/rui (Radix UI headless)"
+  },
+  "architecture": "ddd-4layer",
+  "commands": {
+    "build": "pnpm turbo build",
+    "typecheck": "pnpm turbo typecheck",
+    "lint": "pnpm turbo lint",
+    "test": "pnpm turbo test",
+    "dev": "pnpm turbo dev",
+    "format": "pnpm format"
+  },
+  "eslintConfig": "ddd",
+  "designSystem": {
+    "package": "@ridenow/rui",
+    "themePath": null
+  }
+}

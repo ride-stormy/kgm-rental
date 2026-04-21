@@ -1,0 +1,1588 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KGM Experience Center — 장기렌트 특별 한정 상품</title>
+<meta name="description" content="토레스 월 39만원, 액티언 하이브리드 월 18만원. KGM Experience Center가 선보이는 국내 최저 조건의 장기렌트 특별 한정 상품." />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+<style>
+  /* ============================================================
+     TOSS-inspired design tokens (TOSS-DESIGN-TEST.md)
+     ============================================================ */
+  :root {
+    /* Brand / Interactive */
+    --blue-50:  #e8f3ff;
+    --blue-500: #0A93FF;
+    --blue-600: #2272eb;
+
+    /* Neutrals (warm undertone) */
+    --grey-50:  #f9fafb;
+    --grey-100: #f2f4f6;
+    --grey-200: #e5e8eb;
+    --grey-300: #d1d6db;
+    --grey-400: #b0b8c1;
+    --grey-500: #8b95a1;
+    --grey-600: #6b7684;
+    --grey-700: #4e5968;
+    --grey-800: #333d4b;
+    --grey-900: #191f28;
+
+    /* Semantic */
+    --red-500:    #f04452;
+    --green-500:  #03b26c;
+    --orange-500: #fe9800;
+
+    /* Surfaces */
+    --bg: #ffffff;
+    --bg-soft: var(--grey-50);
+    --bg-surface: var(--grey-100);
+    --bg-dark: var(--grey-900);
+
+    /* Borders */
+    --border: var(--grey-200);
+    --border-strong: var(--grey-300);
+
+    /* Shadows */
+    --shadow-1: 0px 1px 3px rgba(0, 0, 0, 0.06);
+    --shadow-2: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-3: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    --shadow-4: 0px 8px 24px rgba(0, 0, 0, 0.16);
+
+    /* Radius */
+    --r-4:  4px;
+    --r-8:  8px;
+    --r-12: 12px;
+    --r-16: 16px;
+    --r-pill: 9999px;
+
+    /* Typography stack (Toss Product Sans가 웹에 배포되어 있지 않아 Pretendard를 주축으로 사용) */
+    --font: "Toss Product Sans", "Pretendard Variable", "Pretendard", "SF Pro KR", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Roboto, "Noto Sans KR", sans-serif;
+
+    --container: 1080px;
+    --container-narrow: 720px;
+
+    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+  body {
+    font-family: var(--font);
+    font-size: 14px;
+    line-height: 1.57;
+    color: var(--grey-900);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a { color: var(--blue-500); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ============================================================
+     Typography
+     ============================================================ */
+  .t-display-hero {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .t-display {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.33;
+  }
+  .t-display-lg {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+  }
+  .t-heading-lg {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.36;
+  }
+  .t-heading {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.40;
+  }
+  .t-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.50;
+  }
+  .t-body-lg {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    color: var(--grey-700);
+  }
+  .t-body {
+    font-size: 14px;
+    line-height: 1.57;
+    color: var(--grey-600);
+  }
+  .t-caption {
+    font-size: 13px;
+    line-height: 1.54;
+    color: var(--grey-500);
+  }
+  .t-micro {
+    font-size: 12px;
+    line-height: 1.50;
+    color: var(--grey-500);
+  }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  @media (max-width: 640px) {
+    .t-display-hero { font-size: 32px; line-height: 1.20; }
+    .t-display { font-size: 24px; }
+    .t-display-lg { font-size: 22px; }
+    .t-heading-lg { font-size: 19px; }
+  }
+
+  /* ============================================================
+     Layout
+     ============================================================ */
+  .section { padding: 80px 20px; }
+  .section-soft { background: var(--bg-soft); }
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+  }
+  .container-narrow {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+  }
+  .stack-sm > * + * { margin-top: 8px; }
+  .stack-md > * + * { margin-top: 16px; }
+  .stack-lg > * + * { margin-top: 24px; }
+
+  /* ============================================================
+     Chips / Badges
+     ============================================================ */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: var(--r-pill);
+    background: var(--blue-50);
+    color: var(--blue-500);
+    line-height: 1;
+  }
+  .chip-neutral {
+    background: var(--grey-100);
+    color: var(--grey-700);
+  }
+  .chip-danger {
+    background: #fde7e9;
+    color: var(--red-500);
+  }
+  .chip-success {
+    background: #e4f7ef;
+    color: var(--green-500);
+  }
+  .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    display: inline-block;
+  }
+
+  /* ============================================================
+     Buttons
+     ============================================================ */
+  .btn {
+    font-family: var(--font);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 14px 22px;
+    border-radius: var(--r-12);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background 0.15s var(--ease), color 0.15s var(--ease), transform 0.15s var(--ease), border-color 0.15s var(--ease);
+    text-decoration: none;
+  }
+  .btn:hover { text-decoration: none; }
+  .btn:active { transform: scale(0.99); }
+
+  .btn-primary {
+    background: var(--blue-500);
+    color: #fff;
+  }
+  .btn-primary:hover { background: var(--blue-600); }
+
+  .btn-dark {
+    background: var(--grey-900);
+    color: #fff;
+  }
+  .btn-dark:hover { background: var(--grey-800); }
+
+  .btn-weak {
+    background: var(--blue-50);
+    color: var(--blue-500);
+  }
+  .btn-weak:hover { background: #dfebff; }
+
+  .btn-ghost {
+    background: var(--grey-100);
+    color: var(--grey-800);
+  }
+  .btn-ghost:hover { background: #e8ebef; }
+
+  .btn-lg { padding: 16px 28px; font-size: 17px; border-radius: var(--r-12); }
+  .btn-sm { padding: 10px 16px; font-size: 14px; }
+
+  :focus-visible {
+    outline: 2px solid var(--blue-500);
+    outline-offset: 2px;
+  }
+
+  /* ============================================================
+     Hero
+     ============================================================ */
+  .hero {
+    padding: 88px 20px 64px;
+    background: var(--bg);
+  }
+  .hero-inner {
+    max-width: var(--container);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .hero-badges { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+  .hero h1 {
+    margin: 0 0 16px;
+    color: var(--grey-900);
+  }
+  .hero .sub {
+    margin: 0 0 32px;
+    color: var(--grey-600);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  /* Hero 우측 카드 — Toss "balance card" 스타일 */
+  .hero-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    box-shadow: var(--shadow-2);
+    padding: 28px;
+  }
+  .hero-card .title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .hero-card .title-row .t-subtitle { color: var(--grey-900); }
+  .hero-metric {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-metric .cell .k {
+    font-size: 13px;
+    color: var(--grey-500);
+    margin-bottom: 4px;
+  }
+  .hero-metric .cell .v {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--grey-900);
+    letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
+  }
+  .hero-metric .cell .v .unit {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey-600);
+    margin-left: 2px;
+  }
+  .hero-card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    font-size: 14px;
+  }
+  .hero-card-row + .hero-card-row { border-top: 1px solid var(--border); }
+  .hero-card-row .k { color: var(--grey-600); }
+  .hero-card-row .v {
+    color: var(--grey-900);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .hero-card-row .v.positive { color: var(--green-500); }
+  .hero-card-row .v.highlight { color: var(--blue-500); }
+
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; gap: 32px; }
+    .hero { padding: 56px 20px 48px; }
+  }
+
+  /* ============================================================
+     Section header
+     ============================================================ */
+  .section-head {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .section-head .eyebrow {
+    display: inline-block;
+    padding: 6px 12px;
+    background: var(--blue-50);
+    color: var(--blue-500);
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: var(--r-pill);
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+  }
+  .section-head h2 { margin: 0 0 12px; color: var(--grey-900); }
+  .section-head p {
+    margin: 0 auto;
+    max-width: 560px;
+    color: var(--grey-600);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* ============================================================
+     Product hero (토레스 · 액티언 HEV)
+     ============================================================ */
+  .product-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .product-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    padding: 32px 28px;
+  }
+  .product-card .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--blue-500);
+    background: var(--blue-50);
+    padding: 6px 10px;
+    border-radius: var(--r-pill);
+    margin-bottom: 16px;
+  }
+  .product-card h3 {
+    margin: 0 0 8px;
+    color: var(--grey-900);
+  }
+  .product-card .desc {
+    margin: 0 0 24px;
+    color: var(--grey-600);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .product-price {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 20px;
+    background: var(--grey-50);
+    border-radius: var(--r-12);
+    margin-bottom: 20px;
+  }
+  .product-price .label {
+    font-size: 13px;
+    color: var(--grey-600);
+    margin-right: auto;
+  }
+  .product-price .won {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--grey-900);
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .product-price .won-unit {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--grey-600);
+  }
+  .product-features { list-style: none; padding: 0; margin: 0 0 24px; }
+  .product-features li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 0;
+    font-size: 14px;
+    color: var(--grey-800);
+    border-bottom: 1px solid var(--border);
+  }
+  .product-features li:last-child { border-bottom: none; }
+  .product-features svg { flex-shrink: 0; margin-top: 2px; color: var(--blue-500); }
+  .product-ctas { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  @media (max-width: 768px) {
+    .product-row { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================
+     Compare table (티볼리 vs 토레스)
+     ============================================================ */
+  .compare-wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    overflow: hidden;
+    box-shadow: var(--shadow-1);
+  }
+  .compare-head {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    background: var(--grey-900);
+    color: #fff;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .compare-head .col { text-align: center; }
+  .compare-head .col:first-child { text-align: left; }
+  .compare-head .winner {
+    color: #fff;
+    background: linear-gradient(180deg, transparent, rgba(10, 147, 255, 0.2));
+  }
+  .compare-row {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    font-size: 14px;
+  }
+  .compare-row:last-child { border-bottom: none; }
+  .compare-row .col { text-align: center; font-variant-numeric: tabular-nums; color: var(--grey-800); }
+  .compare-row .col:first-child { text-align: left; color: var(--grey-600); font-weight: 500; }
+  .compare-row .winner {
+    color: var(--blue-500);
+    font-weight: 700;
+    background: rgba(10, 147, 255, 0.06);
+  }
+  .compare-row.highlight .col:not(:first-child) {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .compare-row.total { background: var(--grey-50); font-weight: 700; }
+  @media (max-width: 640px) {
+    .compare-head, .compare-row { grid-template-columns: 1fr 0.8fr 0.8fr; padding: 14px 16px; font-size: 13px; }
+    .compare-row.highlight .col:not(:first-child) { font-size: 17px; }
+  }
+
+  /* ============================================================
+     Benefit cards
+     ============================================================ */
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .benefit {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-12);
+    padding: 24px 20px;
+  }
+  .benefit .ic {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--r-12);
+    background: var(--blue-50);
+    color: var(--blue-500);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .benefit h4 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--grey-900);
+  }
+  .benefit p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--grey-600);
+    line-height: 1.54;
+  }
+  @media (max-width: 900px) {
+    .benefits { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 480px) {
+    .benefits { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================
+     Inventory cards
+     ============================================================ */
+  .inv-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .inv-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
+  }
+  .inv-card:hover {
+    box-shadow: var(--shadow-3);
+    transform: translateY(-2px);
+  }
+  .inv-card .tag-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .inv-card h3 {
+    margin: 0 0 4px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--grey-900);
+    letter-spacing: -0.01em;
+  }
+  .inv-card .price-range {
+    color: var(--grey-600);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 20px;
+  }
+  .inv-card .stock-row {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .inv-card .stock-n {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--grey-900);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .inv-card .stock-n .u {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey-600);
+    margin-left: 2px;
+  }
+  .inv-card .trims {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+  .inv-card .trim-chip {
+    font-size: 12px;
+    padding: 4px 10px;
+    background: var(--grey-100);
+    color: var(--grey-700);
+    border-radius: var(--r-pill);
+    font-weight: 500;
+  }
+  @media (max-width: 900px) {
+    .inv-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 540px) {
+    .inv-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================
+     Calculator
+     ============================================================ */
+  .calc {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    overflow: hidden;
+    box-shadow: var(--shadow-2);
+  }
+  @media (max-width: 900px) {
+    .calc { grid-template-columns: 1fr; }
+  }
+
+  .calc-controls { padding: 36px 32px; }
+  .calc-row { margin-bottom: 24px; }
+  .calc-row label.field-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--grey-700);
+    margin-bottom: 10px;
+  }
+  .calc-row .hint {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--grey-500);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Segmented */
+  .seg {
+    display: flex;
+    gap: 4px;
+    background: var(--grey-100);
+    padding: 4px;
+    border-radius: var(--r-12);
+  }
+  .seg button {
+    flex: 1;
+    font-family: var(--font);
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    color: var(--grey-600);
+    border: none;
+    padding: 10px 8px;
+    border-radius: var(--r-8);
+    cursor: pointer;
+    transition: all 0.15s var(--ease);
+  }
+  .seg button:hover { color: var(--grey-800); }
+  .seg button[aria-pressed="true"] {
+    background: var(--bg);
+    color: var(--grey-900);
+    box-shadow: var(--shadow-1);
+  }
+
+  /* Select */
+  .select {
+    width: 100%;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 14px 44px 14px 16px;
+    background: var(--grey-100);
+    color: var(--grey-900);
+    border: 1px solid transparent;
+    border-radius: var(--r-12);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'><path d='M6 8L10 12L14 8' stroke='%234e5968' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 18px;
+    cursor: pointer;
+    transition: border-color 0.15s var(--ease), background-color 0.15s var(--ease);
+  }
+  .select:hover { background-color: #e8ebef; }
+  .select:focus {
+    outline: none;
+    background-color: var(--bg);
+    border-color: var(--blue-500);
+  }
+
+  /* Slider */
+  .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  input[type="range"] {
+    flex: 1;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    margin: 0;
+    height: 20px;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 4px;
+    background: var(--grey-200);
+    border-radius: 2px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background: var(--bg);
+    border: 2px solid var(--blue-500);
+    border-radius: 50%;
+    margin-top: -9px;
+    cursor: pointer;
+    box-shadow: var(--shadow-1);
+    transition: transform 0.15s var(--ease);
+  }
+  input[type="range"]:hover::-webkit-slider-thumb { transform: scale(1.08); }
+  .slider-val {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--grey-900);
+    min-width: 46px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    padding: 4px 10px;
+    background: var(--blue-50);
+    color: var(--blue-500);
+    border-radius: var(--r-8);
+  }
+
+  /* Result panel */
+  .calc-result {
+    background: var(--grey-900);
+    color: #fff;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+  }
+  .calc-result .label-sm {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 8px;
+  }
+  .calc-result .monthly {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .calc-result .monthly .u {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.64);
+    margin-left: 4px;
+  }
+  .calc-result .summary {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.54;
+    margin-bottom: 20px;
+  }
+  .calc-breakdown {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: var(--r-12);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 20px;
+    margin-bottom: 20px;
+  }
+  .calc-breakdown .item .k {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 4px;
+  }
+  .calc-breakdown .item .v {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+  }
+  .calc-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto;
+  }
+  .calc-cta .btn-primary { width: 100%; }
+  .calc-cta .btn-secondary-on-dark {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 20px;
+    border-radius: var(--r-12);
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s var(--ease);
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calc-cta .btn-secondary-on-dark:hover { background: rgba(255, 255, 255, 0.16); }
+  .calc-disclaimer {
+    margin-top: 14px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.48);
+    line-height: 1.5;
+  }
+
+  /* ============================================================
+     Consult cards
+     ============================================================ */
+  .center-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .center-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--r-16);
+    padding: 28px;
+    text-align: left;
+  }
+  .center-card .tag-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .center-card h4 {
+    margin: 0 0 4px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--grey-900);
+  }
+  .center-card .tel {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--grey-900);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+    margin: 12px 0 6px;
+    display: inline-block;
+  }
+  .center-card .tel:hover { color: var(--blue-500); text-decoration: none; }
+  .center-card .addr {
+    font-size: 13px;
+    color: var(--grey-600);
+    margin-bottom: 16px;
+  }
+  .center-card .tel-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--blue-50);
+    color: var(--blue-500);
+    padding: 10px 16px;
+    border-radius: var(--r-8);
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .center-card .tel-btn:hover { background: #dfebff; text-decoration: none; }
+  @media (max-width: 640px) {
+    .center-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ============================================================
+     CTA banner
+     ============================================================ */
+  .cta-banner {
+    max-width: var(--container);
+    margin: 0 auto;
+    background: var(--grey-900);
+    border-radius: var(--r-16);
+    padding: 40px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    color: #fff;
+    flex-wrap: wrap;
+  }
+  .cta-banner h3 {
+    margin: 0 0 6px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .cta-banner p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 14px;
+  }
+  .cta-banner .btn-primary { flex-shrink: 0; }
+  @media (max-width: 640px) {
+    .cta-banner { padding: 32px 24px; }
+  }
+
+  /* ============================================================
+     Footer
+     ============================================================ */
+  footer {
+    background: var(--bg-soft);
+    border-top: 1px solid var(--border);
+    padding: 32px 20px 40px;
+    text-align: center;
+    color: var(--grey-500);
+    font-size: 12px;
+  }
+  footer p { margin: 3px 0; }
+  footer strong { color: var(--grey-800); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ============================== HERO ============================== -->
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badges">
+        <span class="chip chip-danger"><span class="dot"></span>한정 수량</span>
+        <span class="chip">국내 최저 조건 보장</span>
+        <span class="chip chip-neutral">KGM 공식 리테일러 · 라이드</span>
+      </div>
+      <h1 class="t-display-hero">
+        티볼리보다 싼 토레스,<br/>
+        월 18만원대 액티언 하이브리드.
+      </h1>
+      <p class="sub">
+        KGM과 대형 캐피탈사가 독점 제휴로 설계한 장기렌트 특별 상품.<br/>
+        취·등록세, 자동차세, 보험료까지 포함된 올인 월 납입금으로 타세요.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary btn-lg" href="#consult">상담 신청하기</a>
+        <a class="btn btn-weak btn-lg" href="#calculator">월 납입금 계산</a>
+      </div>
+    </div>
+
+    <!-- Toss-style balance/summary card -->
+    <div class="hero-card">
+      <div class="title-row">
+        <div class="t-subtitle">지금 준비된 재고</div>
+        <span class="chip chip-success"><span class="dot"></span>즉시 출고</span>
+      </div>
+      <div class="hero-metric">
+        <div class="cell">
+          <div class="k">총 재고</div>
+          <div class="v tabular">379<span class="unit">대</span></div>
+        </div>
+        <div class="cell">
+          <div class="k">모델 종류</div>
+          <div class="v tabular">6<span class="unit">종</span></div>
+        </div>
+      </div>
+      <div class="hero-card-row">
+        <span class="k">토레스 장기렌트</span>
+        <span class="v highlight tabular">월 39만원~</span>
+      </div>
+      <div class="hero-card-row">
+        <span class="k">액티언 하이브리드</span>
+        <span class="v highlight tabular">월 18만원대</span>
+      </div>
+      <div class="hero-card-row">
+        <span class="k">5년 절감액 (티볼리 대비)</span>
+        <span class="v positive tabular">+780만원</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================== 토레스 vs 티볼리 비교 ============================== -->
+<section class="section section-soft" id="torres">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">2025 토레스 장기렌트</span>
+      <h2 class="t-display">준중형 SUV를,<br/>소형 SUV 가격으로.</h2>
+      <p>티볼리를 할부로 사는 것보다 더 낮은 월 납입금. 더 큰 차체, 703L 트렁크, 정통 SUV의 안전까지.</p>
+    </div>
+
+    <div class="compare-wrap">
+      <div class="compare-head">
+        <div class="col">항목</div>
+        <div class="col">티볼리 할부 · 60개월</div>
+        <div class="col winner">토레스 장기렌트 · 60개월</div>
+      </div>
+      <div class="compare-row highlight">
+        <div class="col">월 납입금</div>
+        <div class="col tabular">월 42만원</div>
+        <div class="col winner tabular">월 39만원</div>
+      </div>
+      <div class="compare-row">
+        <div class="col">취·등록세 (7%)</div>
+        <div class="col">별도 부담</div>
+        <div class="col winner">포함</div>
+      </div>
+      <div class="compare-row">
+        <div class="col">5년 자동차세</div>
+        <div class="col">별도 부담</div>
+        <div class="col winner">포함</div>
+      </div>
+      <div class="compare-row">
+        <div class="col">5년 보험료</div>
+        <div class="col">별도 부담</div>
+        <div class="col winner">포함</div>
+      </div>
+      <div class="compare-row total">
+        <div class="col">5년 추가 부담</div>
+        <div class="col tabular">약 780만원</div>
+        <div class="col winner tabular">0원</div>
+      </div>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit">
+        <div class="ic">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h4>세금·보험 포함</h4>
+        <p>취득세·자동차세·보험료까지 월 납입금에 모두 포함된 올인 조건.</p>
+      </div>
+      <div class="benefit">
+        <div class="ic">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg>
+        </div>
+        <h4>5년 780만원 절약</h4>
+        <p>티볼리 직접 구매 대비 5년간 부대비용 절감. 주유비로도 충분한 금액.</p>
+      </div>
+      <div class="benefit">
+        <div class="ic">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>정통 SUV 안전</h4>
+        <p>차체 78% 고장력 강판·핵심부 초고장력 강판으로 충돌 안전성 확보.</p>
+      </div>
+      <div class="benefit">
+        <div class="ic">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V4h8v3"/></svg>
+        </div>
+        <h4>압도적 적재 공간</h4>
+        <p>트렁크 703L. 스포티지·투싼(622~637L) 대비 압도적 수납 여유.</p>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top: 40px;">
+      <a class="btn btn-primary btn-lg" href="#calculator">토레스 월 납입금 계산하기</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== 액티언 HEV ============================== -->
+<section class="section" id="actyon">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">액티언 하이브리드 36개월 · 선수 30%</span>
+      <h2 class="t-display">월 <span style="color: var(--blue-500);">180,550원.</span><br/>고유가 시대의 정답.</h2>
+      <p>하루 6,000원꼴로 프리미엄 하이브리드 SUV를. 취·등록세·자동차세·보험료 모두 포함된 올인 조건.</p>
+    </div>
+
+    <div class="product-row">
+      <div class="product-card">
+        <span class="tag">추천 · 액티언 HEV</span>
+        <h3 class="t-heading-lg">액티언 하이브리드 S8</h3>
+        <p class="desc">고출력 모터와 최적화된 엔진 로직으로 저속 정숙성과 고속 가속력을 동시에. 경쟁사 고가 옵션인 ADAS가 기본 적용.</p>
+
+        <div class="product-price">
+          <span class="label">월 납입금</span>
+          <span class="won tabular">180,550</span>
+          <span class="won-unit">원 / 월</span>
+        </div>
+
+        <ul class="product-features">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>36개월 · 선수금 30% · 연 10,000km 기준</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>취·등록세, 자동차세, 보험료 모두 포함</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>충전 걱정·화재 우려 없는 하이브리드</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>ADAS·편의사양 기본, 쿠페형 SUV 디자인</span>
+          </li>
+        </ul>
+
+        <div class="product-ctas">
+          <a class="btn btn-primary" href="#consult">상담 신청하기</a>
+          <a class="btn btn-ghost" href="#calculator">월 납입금 계산</a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <span class="tag">베스트셀러 · 2025 토레스</span>
+        <h3 class="t-heading-lg">토레스 T5 · 장기렌트</h3>
+        <p class="desc">티볼리 할부보다 낮은 월 납입금. 준중형 SUV의 여유로운 공간과 정통 SUV 안전성.</p>
+
+        <div class="product-price">
+          <span class="label">월 납입금</span>
+          <span class="won tabular">390,000</span>
+          <span class="won-unit">원 / 월</span>
+        </div>
+
+        <ul class="product-features">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>60개월 · 선수금 30% · 연 10,000km 기준</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>5년 총 780만원 부대비용 절감</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>트렁크 703L, 경쟁차 대비 +80L</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>고장력 강판 차체, 정통 SUV 안전성</span>
+          </li>
+        </ul>
+
+        <div class="product-ctas">
+          <a class="btn btn-primary" href="#consult">상담 신청하기</a>
+          <a class="btn btn-ghost" href="#calculator">월 납입금 계산</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== INVENTORY ============================== -->
+<section class="section section-soft" id="inventory">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">즉시 출고 재고</span>
+      <h2 class="t-display">지금 준비된 379대 중에서 고르세요.</h2>
+      <p>한정 수량으로 운영되는 특별 상품. 소진 시 즉시 마감됩니다.</p>
+    </div>
+    <div class="inv-grid" id="inv-grid"><!-- JS --></div>
+  </div>
+</section>
+
+<!-- ============================== CALCULATOR ============================== -->
+<section class="section" id="calculator">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">RENTAL ESTIMATOR</span>
+      <h2 class="t-display">월 납입금, 직접 계산해 보세요.</h2>
+      <p>차종과 조건을 선택하면 대략적인 월 납입금을 즉시 확인할 수 있습니다.</p>
+    </div>
+
+    <div class="calc">
+      <div class="calc-controls">
+        <div class="calc-row">
+          <label class="field-label" for="model"><span>차종</span></label>
+          <select id="model" class="select"></select>
+        </div>
+
+        <div class="calc-row">
+          <label class="field-label" for="trim"><span>트림</span></label>
+          <select id="trim" class="select"></select>
+          <div class="hint" id="trim-price-hint">차량가격 —</div>
+        </div>
+
+        <div class="calc-row">
+          <label class="field-label"><span>계약 기간</span></label>
+          <div class="seg" id="seg-months" role="radiogroup" aria-label="계약 기간">
+            <button type="button" data-v="36">36개월</button>
+            <button type="button" data-v="48">48개월</button>
+            <button type="button" data-v="60" aria-pressed="true">60개월</button>
+          </div>
+        </div>
+
+        <div class="calc-row">
+          <label class="field-label"><span>연간 주행거리</span></label>
+          <div class="seg" id="seg-mileage" role="radiogroup" aria-label="연간 주행거리">
+            <button type="button" data-v="10000" aria-pressed="true">10,000km</button>
+            <button type="button" data-v="15000">15,000km</button>
+            <button type="button" data-v="20000">20,000km</button>
+            <button type="button" data-v="30000">30,000km</button>
+          </div>
+        </div>
+
+        <div class="calc-row">
+          <label class="field-label" for="down"><span>선수금 비율</span><span class="slider-val" id="down-val">30%</span></label>
+          <div class="slider-row">
+            <input type="range" id="down" min="0" max="30" step="5" value="30" />
+          </div>
+        </div>
+
+        <div class="calc-row">
+          <label class="field-label" for="subsidy"><span>보조금 비율</span><span class="slider-val" id="subsidy-val">0%</span></label>
+          <div class="slider-row">
+            <input type="range" id="subsidy" min="0" max="20" step="5" value="0" />
+          </div>
+        </div>
+      </div>
+
+      <div class="calc-result">
+        <div>
+          <div class="label-sm">예상 월 납입금</div>
+          <div class="monthly tabular"><span id="res-monthly">—</span><span class="u">원 / 월</span></div>
+          <div class="summary" id="res-summary">—</div>
+
+          <div class="calc-breakdown">
+            <div class="item"><div class="k">차량가격</div><div class="v tabular" id="res-price">—</div></div>
+            <div class="item"><div class="k">선수금</div><div class="v tabular" id="res-down">—</div></div>
+            <div class="item"><div class="k">보조금</div><div class="v tabular" id="res-sub">—</div></div>
+            <div class="item"><div class="k">총 납입액</div><div class="v tabular" id="res-total">—</div></div>
+          </div>
+        </div>
+
+        <div class="calc-cta">
+          <a class="btn btn-primary" href="#consult">이 조건으로 상담 신청</a>
+          <a class="btn-secondary-on-dark" href="#inventory">다른 차량 보기</a>
+        </div>
+
+        <p class="calc-disclaimer">
+          * 본 금액은 단순 추정치입니다. 실제 월 납입금은 신용등급, 보험 조건, 잔가 설정, 프로모션 적용 여부에 따라 달라질 수 있습니다. 정확한 금액은 상담을 통해 확인하세요.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CONSULT ============================== -->
+<section class="section section-soft" id="consult">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">상담 신청</span>
+      <h2 class="t-display">전문 스페셜리스트에게 바로 연결.</h2>
+      <p>가까운 KGM Experience Center로 전화 한 통이면 투명한 견적과 맞춤 컨설팅을 받으실 수 있습니다.</p>
+    </div>
+
+    <div class="center-grid">
+      <div class="center-card">
+        <div class="tag-row">
+          <span class="chip">강남 센터</span>
+          <span class="chip chip-success"><span class="dot"></span>영업중</span>
+        </div>
+        <h4>KGM Experience Center 강남</h4>
+        <a class="tel tabular" href="tel:024455582">02-445-5582</a>
+        <div class="addr">투명한 견적 · 전담 스페셜리스트 · 다양한 시승 코스</div>
+        <a class="tel-btn" href="tel:024455582">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          지금 전화하기
+        </a>
+      </div>
+      <div class="center-card">
+        <div class="tag-row">
+          <span class="chip">일산 센터</span>
+          <span class="chip chip-success"><span class="dot"></span>영업중</span>
+        </div>
+        <h4>KGM Experience Center 일산</h4>
+        <a class="tel tabular" href="tel:0319025582">031-902-5582</a>
+        <div class="addr">맞춤 컨설팅 · 한정 재고 차량 · 특별 출고 서비스</div>
+        <a class="tel-btn" href="tel:0319025582">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          지금 전화하기
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CTA BANNER ============================== -->
+<section class="section" style="padding-top: 0;">
+  <div class="cta-banner">
+    <div>
+      <h3>한정 수량, 지금이 아니면 소진됩니다.</h3>
+      <p>국내 최저 조건 장기렌트. 준비된 수량이 소진되면 즉시 마감됩니다.</p>
+    </div>
+    <a class="btn btn-primary btn-lg" href="#consult">지금 상담 신청하기</a>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <p><strong>라이드 주식회사</strong> · KGM 공식 리테일러</p>
+  <p>본 페이지는 내부 검토용 시안입니다. 표기된 월 납입금과 조건은 예시이며, 실제 상품은 상담 시 확정됩니다.</p>
+  <p>© 2026 Ride Inc.</p>
+</footer>
+
+<script>
+  /* ============================================================
+     Vehicle data (vehicle-groups-20260420.xlsx 집계 · 379대)
+     ============================================================ */
+  const VEHICLES = [
+    {
+      key: "torres",
+      model: "2025 토레스",
+      stock: 128,
+      minPrice: 31240000,
+      maxPrice: 39340000,
+      tag: "베스트셀러 SUV",
+      trims: [
+        { name: "T5 2WD", price: 31240000, stock: 13 },
+        { name: "T5", price: 31890000, stock: 9 },
+        { name: "T7 2WD", price: 34255000, stock: 7 },
+        { name: "T7", price: 34880000, stock: 36 },
+        { name: "블랙엣지 2WD", price: 36240000, stock: 27 },
+        { name: "블랙엣지", price: 38115000, stock: 35 },
+        { name: "블랙엣지 AWD", price: 38940000, stock: 1 }
+      ]
+    },
+    {
+      key: "actyon-hev",
+      model: "액티언 HEV",
+      stock: 71,
+      minPrice: 38540000,
+      maxPrice: 41390000,
+      tag: "하이브리드 · 36개월 특가",
+      trims: [
+        { name: "하이브리드 S8", price: 39965000, stock: 71 }
+      ]
+    },
+    {
+      key: "musso",
+      model: "2026 무쏘",
+      stock: 47,
+      minPrice: 38350000,
+      maxPrice: 46500000,
+      tag: "정통 픽업",
+      trims: [
+        { name: "S 디젤 M7 2WD", price: 38350000, stock: 1 },
+        { name: "S 가솔린 M7 4WD", price: 39475000, stock: 2 },
+        { name: "L 가솔린 M7 4WD", price: 40425000, stock: 8 },
+        { name: "S 디젤 M7 4WD", price: 40925000, stock: 12 },
+        { name: "4WD 디젤 M7", price: 42825000, stock: 3 },
+        { name: "L 디젤 M7 4WD", price: 43625000, stock: 8 },
+        { name: "L 가솔린 M9 4WD", price: 44350000, stock: 3 },
+        { name: "L 디젤 M9 4WD", price: 46250000, stock: 7 }
+      ]
+    },
+    {
+      key: "musso-grand",
+      model: "2026 무쏘그랜드",
+      stock: 99,
+      minPrice: 37300000,
+      maxPrice: 47300000,
+      tag: "프리미엄 픽업",
+      trims: [
+        { name: "S 가솔린 M7 2WD", price: 37625000, stock: 2 },
+        { name: "S 가솔린 M7 4WD", price: 40075000, stock: 8 },
+        { name: "S 디젤 M7 2WD", price: 39625000, stock: 2 },
+        { name: "S 디젤 M7 4WD", price: 42225000, stock: 15 },
+        { name: "L 디젤 M7 4WD", price: 44425000, stock: 16 },
+        { name: "S 디젤 M9 4WD", price: 44850000, stock: 31 },
+        { name: "L 가솔린 M9 4WD", price: 44900000, stock: 1 },
+        { name: "L 디젤 M9 4WD", price: 47050000, stock: 14 }
+      ]
+    },
+    {
+      key: "musso-ev",
+      model: "무쏘 EV",
+      stock: 32,
+      minPrice: 48800000,
+      maxPrice: 52300000,
+      tag: "전기 픽업",
+      trims: [
+        { name: "MX 2WD", price: 49400000, stock: 8 },
+        { name: "블랙엣지 2WD", price: 51400000, stock: 24 }
+      ]
+    },
+    {
+      key: "tivoli",
+      model: "티볼리",
+      stock: 2,
+      minPrice: 21800000,
+      maxPrice: 27890000,
+      tag: "엔트리 SUV",
+      trims: [
+        { name: "2026 티볼리 1.6 V1 2WD", price: 21800000, stock: 1 },
+        { name: "티볼리 1.5 V7 2WD", price: 27890000, stock: 1 }
+      ]
+    }
+  ];
+
+  /* ============================================================
+     Inventory 카드 렌더
+     ============================================================ */
+  const invGrid = document.getElementById("inv-grid");
+  invGrid.innerHTML = VEHICLES.map(v => {
+    const trims = v.trims.slice(0, 4).map(t => `<span class="trim-chip">${t.name}</span>`).join("");
+    const more = v.trims.length > 4 ? `<span class="trim-chip">+${v.trims.length - 4}</span>` : "";
+    const urgent = v.stock <= 5 ? `<span class="chip chip-danger"><span class="dot"></span>마감 임박</span>` : `<span class="chip chip-success"><span class="dot"></span>즉시 출고</span>`;
+    return `
+      <div class="inv-card">
+        <div class="tag-row">
+          <span class="chip chip-neutral">${v.tag}</span>
+          ${urgent}
+        </div>
+        <h3>${v.model}</h3>
+        <div class="price-range tabular">${fmtKRW(v.minPrice)} ~ ${fmtKRW(v.maxPrice)}</div>
+        <div class="trims">${trims}${more}</div>
+        <div class="stock-row">
+          <span class="t-caption">잔여 재고</span>
+          <span class="stock-n">${v.stock}<span class="u">대</span></span>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  /* ============================================================
+     Calculator
+     ============================================================ */
+  const state = {
+    modelKey: "torres",
+    trimIdx: 0,
+    months: 60,
+    mileage: 10000,
+    downPct: 30,
+    subsidyPct: 0
+  };
+
+  const elModel = document.getElementById("model");
+  const elTrim = document.getElementById("trim");
+  const elTrimHint = document.getElementById("trim-price-hint");
+  const elDown = document.getElementById("down");
+  const elDownVal = document.getElementById("down-val");
+  const elSub = document.getElementById("subsidy");
+  const elSubVal = document.getElementById("subsidy-val");
+
+  elModel.innerHTML = VEHICLES.map(v => `<option value="${v.key}">${v.model}</option>`).join("");
+  elModel.value = state.modelKey;
+
+  const findModel = (k) => VEHICLES.find(v => v.key === k);
+
+  function refreshTrims() {
+    const m = findModel(state.modelKey);
+    elTrim.innerHTML = m.trims.map((t, i) => `<option value="${i}">${t.name} — ${fmtKRW(t.price)}</option>`).join("");
+    if (state.trimIdx >= m.trims.length) state.trimIdx = 0;
+    elTrim.value = String(state.trimIdx);
+    updateTrimHint();
+  }
+
+  function updateTrimHint() {
+    const m = findModel(state.modelKey);
+    const t = m.trims[state.trimIdx];
+    elTrimHint.textContent = `차량가격 ${fmtKRW(t.price)}원 · 재고 ${t.stock}대`;
+  }
+
+  elModel.addEventListener("change", () => {
+    state.modelKey = elModel.value;
+    state.trimIdx = 0;
+    refreshTrims();
+    calc();
+  });
+  elTrim.addEventListener("change", () => {
+    state.trimIdx = Number(elTrim.value);
+    updateTrimHint();
+    calc();
+  });
+
+  function bindSeg(id, key, cast) {
+    const root = document.getElementById(id);
+    root.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        root.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", "false"));
+        btn.setAttribute("aria-pressed", "true");
+        state[key] = cast(btn.dataset.v);
+        calc();
+      });
+    });
+  }
+  bindSeg("seg-months", "months", Number);
+  bindSeg("seg-mileage", "mileage", Number);
+
+  elDown.addEventListener("input", () => {
+    state.downPct = Number(elDown.value);
+    elDownVal.textContent = state.downPct + "%";
+    calc();
+  });
+  elSub.addEventListener("input", () => {
+    state.subsidyPct = Number(elSub.value);
+    elSubVal.textContent = state.subsidyPct + "%";
+    calc();
+  });
+
+  function estimate({ price, months, mileage, downPct, subsidyPct }) {
+    const residualMap = { 36: 0.52, 48: 0.42, 60: 0.32 };
+    const mileageMap = { 10000: 1.00, 15000: 1.04, 20000: 1.08, 30000: 1.16 };
+    const residual = residualMap[months] ?? 0.35;
+    const mult = mileageMap[mileage] ?? 1.00;
+
+    const down = price * (downPct / 100);
+    const subsidy = price * (subsidyPct / 100);
+    const netPrice = Math.max(0, price - down - subsidy);
+
+    const depreciation = (netPrice * (1 - residual)) / months;
+    const monthlyRate = 0.049 / 12;
+    const avgBalance = netPrice * (0.5 + residual / 2);
+    const interest = avgBalance * monthlyRate;
+    const opFee = 55000;
+
+    const raw = (depreciation + interest + opFee) * mult;
+    const monthly = Math.round(raw / 1000) * 1000;
+    const total = Math.round(monthly * months);
+
+    return { monthly, total, down: Math.round(down), subsidy: Math.round(subsidy) };
+  }
+
+  function calc() {
+    const m = findModel(state.modelKey);
+    const t = m.trims[state.trimIdx];
+    const r = estimate({
+      price: t.price,
+      months: state.months,
+      mileage: state.mileage,
+      downPct: state.downPct,
+      subsidyPct: state.subsidyPct
+    });
+    document.getElementById("res-monthly").textContent = fmt(r.monthly);
+    document.getElementById("res-summary").textContent =
+      `${m.model} · ${t.name} · ${state.months}개월 · 연 ${fmtKM(state.mileage)}km · 선수 ${state.downPct}% · 보조 ${state.subsidyPct}%`;
+    document.getElementById("res-price").textContent = fmtKRW(t.price);
+    document.getElementById("res-down").textContent = fmtKRW(r.down);
+    document.getElementById("res-sub").textContent = fmtKRW(r.subsidy);
+    document.getElementById("res-total").textContent = fmtKRW(r.total);
+  }
+
+  function fmtKRW(n) { return (n || 0).toLocaleString("ko-KR") + "원"; }
+  function fmt(n) { return (n || 0).toLocaleString("ko-KR"); }
+  function fmtKM(n) { return (n / 1000).toFixed(0) + ",000"; }
+
+  refreshTrims();
+  calc();
+</script>
+
+</body>
+</html>
