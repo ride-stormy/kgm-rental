@@ -1,7 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "pnpm turbo build --filter=@kgm-rental/frontend-b2c",
-  "installCommand": "pnpm install --frozen-lockfile",
-  "outputDirectory": "apps/frontend/b2c/.next",
-  "framework": "nextjs"
-}
