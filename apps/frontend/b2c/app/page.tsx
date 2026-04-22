@@ -1,6 +1,8 @@
 import { getFixtureProducts } from './products/xlsx/_fixtures/loader';
+import { ActyonSection } from './_components/landing/ActyonSection';
 import { HeroSection } from './_components/landing/HeroSection';
 import { ProductsSection } from './_components/landing/ProductsSection';
+import { TorresSection } from './_components/landing/TorresSection';
 import { CalculatorSection } from './_components/landing/CalculatorSection';
 import { MODEL_ORDER } from './_content/landing';
 import { CAR_ITEM_DEFAULTS, computeCarItemPricing, findMinSku } from '@/lib/vehicle-pricing';
@@ -37,6 +39,8 @@ const LandingPage = (): JSX.Element => {
   return (
     <main className="mx-auto min-w-[375px] max-w-[540px] bg-white">
       <HeroSection />
+      <ActyonSection />
+      <TorresSection />
       <ProductsSection pricing={pricing} />
       {initial ? (
         <CalculatorSection products={landingProducts} initial={initial} />

@@ -11,7 +11,16 @@ const config: Config = {
         },
         kgm: {
           purple: {
+            dark: '#100f21',
+            800: '#1f1e36',
+            700: '#272541',
             600: '#2e2c4b',
+            300: '#bab9d2',
+          },
+          blue: {
+            900: '#0b3e91',
+            600: '#0A93FF',
+            500: '#5bb7ff',
           },
         },
         blue: {
@@ -37,6 +46,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['Pretendard', 'system-ui', '-apple-system', 'sans-serif'],
+        gmarket: ['var(--font-gmarket)', 'Pretendard', 'sans-serif'],
       },
       boxShadow: {
         'kgm-1dp': '0 2px 4px 0 rgba(53, 60, 63, 0.04)',

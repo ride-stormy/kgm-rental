@@ -1,6 +1,29 @@
+import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import './globals.css';
+
+const gmarketSans = localFont({
+  src: [
+    {
+      path: '../public/fonts/GmarketSansLight.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/GmarketSansMedium.otf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/GmarketSansBold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-gmarket',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'KGM 렌털 — 장기렌트 견적',
@@ -9,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }): JSX.Element {
   return (
-    <html lang="ko">
+    <html lang="ko" className={gmarketSans.variable}>
       <head>
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
         <link
