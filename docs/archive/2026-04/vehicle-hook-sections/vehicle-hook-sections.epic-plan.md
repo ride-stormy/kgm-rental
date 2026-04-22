@@ -99,41 +99,41 @@ hero-hooking-v2 (archived) ──→ vehicle-hook-sections (현재)
 #### Feature 1: vehicle-hook-sections
 
 **시각 검증 (Figma 대조)**
-- [ ] Actyon 섹션 배경 `#100f21` (kgm-purple-dark)
-- [ ] Actyon 섹션 Chip: 블루 솔리드(#0A93FF?) pill, "하루 6,000원에 프리미엄 하이브리드 SUV" 텍스트 중앙
-- [ ] Actyon 섹션 Title: Gmarket Bold, 2줄 ("월 180,550원" / "고유가 시대의 정답.")
-- [ ] Actyon 카드: 어두운 보조 배경 + rounded + 내부 이미지/텍스트/스펙 4줄/CTA 2버튼
-- [ ] Actyon 스펙 리스트: ✓ 아이콘 + 텍스트 포맷 4줄 (36개월·선수금 30%·1만 km / 취등록세,자동차세,보험료 모두 포함 / 충전 걱정, 화재 우려 없는 하이브리드 / ADAS 편의사양 기본, 쿠페형 SUV 디자인)
-- [ ] Actyon 카드 내 디바이더 라인 피그마 일치
-- [ ] Actyon CTA 2버튼: 좌 "월 납입금 계산하기"(outline), 우 "액티언HEV 상담 신청"(solid 블루)
-- [ ] Torres 섹션 배경 `#100f21`
-- [ ] Torres 섹션 Chip: 블루 pill, "티볼리 보다 싼 토레스"
-- [ ] Torres Title: Gmarket Bold, 2줄 ("준중현 SUV를" / "소형 SUV 가격으로.")
-- [ ] Torres 비교 테이블: 3열(항목/티볼리/토레스), 5행(월 납입금, 취등록세(7%), 5년 자동차세, 5년 보험료, 5년 추가 부담) + 헤더 행
-- [ ] Torres 컬럼 값들이 블루 강조색(#0A93FF 등)으로 하이라이트
-- [ ] Torres CTA 2버튼: 좌 "월 납입금 계산하기"(outline), 우 "토레스 상담 신청"(solid 블루)
-- [ ] Hero CTA 버튼: 기존 보라 → 블루(`#0A93FF`)로 변경, 텍스트는 "상담 신청하기" 유지
+- [x] Actyon 섹션 배경 `#100f21` (kgm-purple-dark)
+- [x] Actyon 섹션 Chip: 블루 솔리드(#0A93FF?) pill, "하루 6,000원에 프리미엄 하이브리드 SUV" 텍스트 중앙
+- [x] Actyon 섹션 Title: Gmarket Bold, 2줄 ("월 180,550원" / "고유가 시대의 정답.")
+- [x] Actyon 카드: 어두운 보조 배경 + rounded + 내부 이미지/텍스트/스펙 4줄/CTA 2버튼
+- [x] Actyon 스펙 리스트: ✓ 아이콘 + 텍스트 포맷 4줄 (36개월·선수금 30%·1만 km / 취등록세,자동차세,보험료 모두 포함 / 충전 걱정, 화재 우려 없는 하이브리드 / ADAS 편의사양 기본, 쿠페형 SUV 디자인)
+- [x] Actyon 카드 내 디바이더 라인 피그마 일치
+- [x] Actyon CTA 2버튼: 좌 "월 납입금 계산하기"(outline), 우 "액티언HEV 상담 신청"(solid 블루)
+- [x] Torres 섹션 배경 `#100f21`
+- [x] Torres 섹션 Chip: 블루 pill, "티볼리 보다 싼 토레스"
+- [x] Torres Title: Gmarket Bold, 2줄 ("준중현 SUV를" / "소형 SUV 가격으로.")
+- [x] Torres 비교 테이블: 3열(항목/티볼리/토레스), 5행(월 납입금, 취등록세(7%), 5년 자동차세, 5년 보험료, 5년 추가 부담) + 헤더 행
+- [x] Torres 컬럼 값들이 블루 강조색(#0A93FF 등)으로 하이라이트
+- [x] Torres CTA 2버튼: 좌 "월 납입금 계산하기"(outline), 우 "토레스 상담 신청"(solid 블루)
+- [x] Hero CTA 버튼: 기존 보라 → 블루(`#0A93FF`)로 변경, 텍스트는 "상담 신청하기" 유지
 
 **기능 검증**
-- [ ] 4개 CTA 버튼 클릭 시 고유 console.debug 이벤트명 출력 (예: `actyon-calc`, `actyon-consult`, `torres-calc`, `torres-consult`)
-- [ ] Actyon 이미지 `alt` 속성 적절(차종명 포함)
-- [ ] Torres 테이블이 `<table>` 시맨틱 태그 사용, 헤더에 `<th scope="col">`
-- [ ] 장식 chip/icon은 `aria-hidden` 또는 적절한 label 처리
-- [ ] 반응형: 375px 모바일 및 540px 이상 중앙 고정 확인
+- [x] 4개 CTA 버튼 클릭 시 고유 console.debug 이벤트명 출력 (예: `actyon-calc`, `actyon-consult`, `torres-calc`, `torres-consult`)
+- [x] Actyon 이미지 `alt` 속성 적절(차종명 포함)
+- [x] Torres 테이블이 `<table>` 시맨틱 태그 사용, 헤더에 `<th scope="col">`
+- [x] 장식 chip/icon은 `aria-hidden` 또는 적절한 label 처리
+- [x] 반응형: 375px 모바일 및 540px 이상 중앙 고정 확인
 
 **품질 검증**
-- [ ] `pnpm --filter @kgm-rental/frontend-b2c build` 성공
-- [ ] `pnpm --filter @kgm-rental/frontend-b2c typecheck` 통과
-- [ ] `pnpm --filter @kgm-rental/frontend-b2c lint` 통과 (0 error, 0 warning)
-- [ ] 기존 랜딩 Hero (Headline/EventBand/LineupImage)은 변경 없음(색상만)
-- [ ] 기존 페이지 라우트(`/`, `/products`, `/products/[modelSlug]`)에 영향 없음
+- [x] `pnpm --filter @kgm-rental/frontend-b2c build` 성공
+- [x] `pnpm --filter @kgm-rental/frontend-b2c typecheck` 통과
+- [x] `pnpm --filter @kgm-rental/frontend-b2c lint` 통과 (0 error, 0 warning)
+- [x] 기존 랜딩 Hero (Headline/EventBand/LineupImage)은 변경 없음(색상만)
+- [x] 기존 페이지 라우트(`/`, `/products`, `/products/[modelSlug]`)에 영향 없음
 
 ### 4.4 통합 검증 기준 (Epic-Level)
 
-- [ ] 페이지 플로우: Hero → Actyon 섹션 → Torres 섹션 순서로 자연스럽게 스크롤 연결
-- [ ] Hero 블루 CTA와 Actyon/Torres 블루 요소들의 색상 일관성(동일 토큰)
-- [ ] dev 서버 기동 후 `/` 경로 200 OK, 모든 섹션 정상 렌더
-- [ ] 전체 페이지 스크롤 시 레이아웃 파손 없음 (가로 스크롤 없음, 세로만 흐름)
+- [x] 페이지 플로우: Hero → Actyon 섹션 → Torres 섹션 순서로 자연스럽게 스크롤 연결
+- [x] Hero 블루 CTA와 Actyon/Torres 블루 요소들의 색상 일관성(동일 토큰)
+- [x] dev 서버 기동 후 `/` 경로 200 OK, 모든 섹션 정상 렌더
+- [x] 전체 페이지 스크롤 시 레이아웃 파손 없음 (가로 스크롤 없음, 세로만 흐름)
 
 ## 5. 성공 기준
 

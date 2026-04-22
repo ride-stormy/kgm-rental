@@ -8,3 +8,4 @@
 | quote-configurator-ui | 2026-04-21 | plan, design, analysis, report |
 | landing-and-stock-v2 | 2026-04-21 | plan, design, analysis, report |
 | hero-hooking-v2 | 2026-04-22 | plan, design, analysis, report |
+| vehicle-hook-sections | 2026-04-22 | plan, design, analysis, report |
