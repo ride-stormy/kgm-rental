@@ -21,6 +21,10 @@
     "./stock/*.js": {
       "types": "./dist/stock/*.d.ts",
       "default": "./dist/stock/*.js"
+    },
+    "./inventory/*.js": {
+      "types": "./dist/inventory/*.d.ts",
+      "default": "./dist/inventory/*.js"
     }
   },
   "scripts": {

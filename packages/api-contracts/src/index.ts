@@ -6,3 +6,4 @@ export * from './product/common.schema.js';
 export * from './product/vehicle-sku.schema.js';
 export * from './product/product-card.schema.js';
 export * from './product/product-detail.schema.js';
+export * from './inventory/inventory.schema.js';
