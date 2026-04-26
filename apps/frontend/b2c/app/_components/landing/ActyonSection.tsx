@@ -1,22 +1,21 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import { LANDING_CONTENT } from '../../_content/landing';
+import { AnimateNumber } from '@/components/ui/animate-number/animate-number';
 import { ActyonSpecCard } from './actyon/ActyonSpecCard';
 import { SectionChip } from './shared/SectionChip';
 
 export const ActyonSection = (): JSX.Element => {
   const { actyon } = LANDING_CONTENT;
+  const router = useRouter();
 
   const handleCalcClick = () => {
-    if (typeof window !== 'undefined') {
-      window.console.debug('actyon-calc');
-    }
+    router.push('/products/actyon-hev?term=36&km=10000&prepaid=30');
   };
 
   const handleConsultClick = () => {
-    if (typeof window !== 'undefined') {
-      window.console.debug('actyon-consult');
-    }
+    // 상담 신청 플로우는 별도 구현 예정
   };
 
   return (
@@ -26,11 +25,25 @@ export const ActyonSection = (): JSX.Element => {
     >
       <SectionChip label={actyon.chip} />
       <h2 className="text-center font-gmarket text-[28px] font-bold leading-[40px] text-white">
-        {actyon.titleLines.map((line) => (
-          <span key={line} className="block">
-            {line}
-          </span>
-        ))}
+        {actyon.titleLines.map((line, index) =>
+          index === 0 ? (
+            <span key={line} className="block" aria-label={line}>
+              월{' '}
+              <AnimateNumber
+                value={180550}
+                fontSize="28px"
+                fontWeight="bold"
+                color="currentColor"
+                showComma
+              />
+              원
+            </span>
+          ) : (
+            <span key={line} className="block">
+              {line}
+            </span>
+          ),
+        )}
       </h2>
       <ActyonSpecCard
         imageSrc={actyon.imageSrc}

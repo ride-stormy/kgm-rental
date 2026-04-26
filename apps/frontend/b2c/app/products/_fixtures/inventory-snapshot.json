@@ -1,0 +1,1242 @@
+{
+  "items": [
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D0136",
+      "colorName": "스페이스 블랙",
+      "colorCode": "LAK",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 2200000,
+      "baseCustomizingDetail": [
+        {
+          "name": "카멜/베이지 투톤 퀼팅 인테리어",
+          "amount": 400000
+        },
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "20인치 미쉐린 흡음형 타이어",
+          "amount": 600000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D0130",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 1750000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D0000",
+      "colorName": "스페이스 블랙",
+      "colorCode": "LAK",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 0,
+      "baseCustomizingDetail": [],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0JSC",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 0,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "makeDates": [
+        "25.10",
+        "25.11",
+        "25.12",
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T5 2WD",
+      "modelCode": "MW5",
+      "specCode": "NS0562",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 28540000,
+      "optionTotalAmount": 2700000,
+      "baseCustomizingDetail": [
+        {
+          "name": "밸류업 패키지",
+          "amount": 1200000
+        },
+        {
+          "name": "12.3인치KGM링크내비게이션패키지 + 인텔리전트어댑티브크루즈컨트롤",
+          "amount": 1500000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "더 뉴 토레스",
+      "makeDates": [
+        "25.10",
+        "25.11",
+        "25.12"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0J53",
+      "colorName": "아이언메탈",
+      "colorCode": "ADE",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 1100000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "25.10"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0J54",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 37740000,
+      "optionTotalAmount": 1200000,
+      "baseCustomizingDetail": [
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "25.10"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GT6",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3550000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "하이 컴포트 패키지 (그레이)",
+          "amount": 1800000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "25.11"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G00",
+      "colorName": "댄디블루",
+      "colorCode": "BAS",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 0,
+      "baseCustomizingDetail": [],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        },
+        {
+          "name": "사이드스텝",
+          "amount": 0
+        },
+        {
+          "name": "스포츠페달",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "25.11"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G3S",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 2450000,
+      "baseCustomizingDetail": [
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "하이 컴포트 패키지 (브라운)",
+          "amount": 1800000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "makeDates": [
+        "25.11",
+        "25.12",
+        "26.02",
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GTF",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3550000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "하이 컴포트 패키지 (브라운)",
+          "amount": 1800000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 3,
+      "makeDates": [
+        "25.11",
+        "25.12"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0JSC",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 0,
+      "baseCustomizingDetail": [],
+      "optionCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "25.11"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0J5G",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 1100000,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 2,
+      "makeDates": [
+        "25.12"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G0Y",
+      "colorName": "포레스트 그린",
+      "colorCode": "GAO",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 2450000,
+      "baseCustomizingDetail": [
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "하이 컴포트 패키지 (블랙)",
+          "amount": 1800000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0J6M",
+      "colorName": "스페이스 블랙",
+      "colorCode": "LAK",
+      "baseTotalAmount": 37740000,
+      "optionTotalAmount": 1350000,
+      "baseCustomizingDetail": [
+        {
+          "name": "운전석 무릎 에어백",
+          "amount": 250000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G3Y",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 1650000,
+      "baseCustomizingDetail": [
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "그레이 인테리어 패키지",
+          "amount": 250000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "T7 AWD (투톤)",
+      "modelCode": "MW5",
+      "specCode": "ND0GH1",
+      "colorName": "그랜드 화이트",
+      "colorCode": "2WA",
+      "baseTotalAmount": 34530000,
+      "optionTotalAmount": 1900000,
+      "baseCustomizingDetail": [
+        {
+          "name": "투톤 익스테리어 패키지",
+          "amount": 500000
+        },
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G1P",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 1850000,
+      "baseCustomizingDetail": [
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0J5K",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 37740000,
+      "optionTotalAmount": 1100000,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.01"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0J5K",
+      "colorName": "스페이스 블랙",
+      "colorCode": "LAK",
+      "baseTotalAmount": 37740000,
+      "optionTotalAmount": 1100000,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G3B",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 2050000,
+      "baseCustomizingDetail": [
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 2,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GRC",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3700000,
+      "baseCustomizingDetail": [
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GT0",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3150000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "천연 가죽시트 (그레이)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G04",
+      "colorName": "라떼 그레이지",
+      "colorCode": "EBL",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 250000,
+      "baseCustomizingDetail": [
+        {
+          "name": "브라운 인테리어 패키지",
+          "amount": 250000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 AWD (투톤)",
+      "modelCode": "MW5",
+      "specCode": "ND0J5N",
+      "colorName": "그랜드 화이트",
+      "colorCode": "2WA",
+      "baseTotalAmount": 37740000,
+      "optionTotalAmount": 1600000,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "투톤 익스테리어 패키지",
+          "amount": 500000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0J56",
+      "colorName": "라떼 그레이지",
+      "colorCode": "EBL",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 2300000,
+      "baseCustomizingDetail": [
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.02"
+      ]
+    },
+    {
+      "modelName": "T5 2WD",
+      "modelCode": "MW5",
+      "specCode": "NS0566",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 28540000,
+      "optionTotalAmount": 4000000,
+      "baseCustomizingDetail": [
+        {
+          "name": "밸류업 패키지",
+          "amount": 1200000
+        },
+        {
+          "name": "12.3인치KGM링크내비게이션패키지 + 인텔리전트어댑티브크루즈컨트롤",
+          "amount": 1500000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2 + 스마트 파워 테일게이트 패키지",
+          "amount": 1300000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 2,
+      "makeDates": [
+        "26.02",
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0G75",
+      "colorName": "포레스트 그린",
+      "colorCode": "GAO",
+      "baseTotalAmount": 34530000,
+      "optionTotalAmount": 900000,
+      "baseCustomizingDetail": [
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "브라운 인테리어 패키지",
+          "amount": 250000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T5 2WD",
+      "modelCode": "MW5",
+      "specCode": "NS0562",
+      "colorName": "포레스트 그린",
+      "colorCode": "GAO",
+      "baseTotalAmount": 28540000,
+      "optionTotalAmount": 2700000,
+      "baseCustomizingDetail": [
+        {
+          "name": "밸류업 패키지",
+          "amount": 1200000
+        },
+        {
+          "name": "12.3인치KGM링크내비게이션패키지 + 인텔리전트어댑티브크루즈컨트롤",
+          "amount": 1500000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 AWD",
+      "modelCode": "MW5",
+      "specCode": "ND0GQ0",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 34530000,
+      "optionTotalAmount": 2500000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G9B",
+      "colorName": "아이언메탈",
+      "colorCode": "ADE",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 1550000,
+      "baseCustomizingDetail": [
+        {
+          "name": "20인치 다이아몬드 커팅 휠 & 타이어",
+          "amount": 650000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "브라운 인테리어 패키지",
+          "amount": 250000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GTW",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3150000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "스마트 파워 테일게이트 패키지",
+          "amount": 750000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 3,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GBH",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 2400000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 2,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "블랙엣지 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0J7S",
+      "colorName": "스페이스 블랙",
+      "colorCode": "LAK",
+      "baseTotalAmount": 35690000,
+      "optionTotalAmount": 2550000,
+      "baseCustomizingDetail": [
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 0
+        },
+        {
+          "name": "운전석 무릎 에어백",
+          "amount": 250000
+        },
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "블랙 엣지 패키지",
+          "amount": 0
+        },
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0GRJ",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 3600000,
+      "baseCustomizingDetail": [
+        {
+          "name": "파노라마 선루프",
+          "amount": 1200000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        },
+        {
+          "name": "천연 가죽시트 (브라운)",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "T7 2WD",
+      "modelCode": "MW5",
+      "specCode": "ND0G34",
+      "colorName": "아이언메탈",
+      "colorCode": "ADE",
+      "baseTotalAmount": 32480000,
+      "optionTotalAmount": 1750000,
+      "baseCustomizingDetail": [
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [
+        {
+          "name": "이머전시 이스케이프 키트",
+          "amount": 0
+        }
+      ],
+      "vehicleModelName": "더 뉴 토레스",
+      "duplicateCount": 1,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D0149",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 2150000,
+      "baseCustomizingDetail": [
+        {
+          "name": "카멜/베이지 투톤 퀼팅 인테리어",
+          "amount": 400000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "makeDates": [
+        "26.02",
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D0149",
+      "colorName": "라떼 그레이지",
+      "colorCode": "EBL",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 2150000,
+      "baseCustomizingDetail": [
+        {
+          "name": "카멜/베이지 투톤 퀼팅 인테리어",
+          "amount": 400000
+        },
+        {
+          "name": "3D 어라운드 뷰 모니터링 시스템",
+          "amount": 1100000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "duplicateCount": 2,
+      "makeDates": [
+        "26.03"
+      ]
+    },
+    {
+      "modelName": "하이브리드 S8",
+      "modelCode": "MD5",
+      "specCode": "8D012A",
+      "colorName": "그랜드 화이트",
+      "colorCode": "WAA",
+      "baseTotalAmount": 38540000,
+      "optionTotalAmount": 1050000,
+      "baseCustomizingDetail": [
+        {
+          "name": "카멜/베이지 투톤 퀼팅 인테리어",
+          "amount": 400000
+        },
+        {
+          "name": "딥 컨트롤 패키지 2",
+          "amount": 650000
+        }
+      ],
+      "optionCustomizingDetail": [],
+      "vehicleModelName": "액티언 하이브리드",
+      "makeDates": [
+        "26.03"
+      ]
+    }
+  ],
+  "totalElements": 39,
+  "timestamp": "2026-04-26T23:17:43.558034",
+  "snapshotGeneratedAt": "2026-04-26T14:17:43.660Z"
+}

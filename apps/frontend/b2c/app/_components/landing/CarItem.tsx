@@ -1,11 +1,10 @@
 'use client';
 
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { Fragment } from 'react';
 import { LANDING_CONTENT, MODEL_DISPLAY } from '../../_content/landing';
 import type { ModelSlug } from '../../_content/landing';
-import { PREFILL_EVENT } from '@/lib/use-quote-estimation';
-import type { PrefillDetail } from '@/lib/use-quote-estimation';
 
 interface CarItemProps {
   modelSlug: ModelSlug;
@@ -15,14 +14,17 @@ interface CarItemProps {
 
 const formatKrw = (amount: number): string => new Intl.NumberFormat('ko-KR').format(amount);
 
-export const CarItem = ({ modelSlug, monthly, minSkuId }: CarItemProps) => {
+export const CarItem = ({ modelSlug, monthly }: CarItemProps) => {
   const display = MODEL_DISPLAY[modelSlug];
   const { carItem } = LANDING_CONTENT;
+  const router = useRouter();
 
   const handleQuoteClick = () => {
-    const detail: PrefillDetail = { modelSlug, skuId: minSkuId };
-    window.dispatchEvent(new CustomEvent<PrefillDetail>(PREFILL_EVENT, { detail }));
-    window.location.hash = 'calculator';
+    router.push(`/products/${modelSlug}`);
+  };
+
+  const handleCardClick = () => {
+    router.push(`/products/${modelSlug}`);
   };
 
   return (
@@ -30,7 +32,16 @@ export const CarItem = ({ modelSlug, monthly, minSkuId }: CarItemProps) => {
       id={modelSlug}
       data-model-slug={modelSlug}
       data-node-id="7:7795"
-      className="scroll-mt-24 overflow-clip rounded-[20px] bg-white shadow-kgm-4dp"
+      role="button"
+      tabIndex={0}
+      onClick={handleCardClick}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          handleCardClick();
+        }
+      }}
+      className="scroll-mt-24 cursor-pointer overflow-clip rounded-[20px] bg-white shadow-kgm-4dp"
     >
       <div className="flex w-full flex-col gap-2 bg-white pl-5 pt-5 shadow-kgm-4dp">
         <div className="w-full pr-5">
@@ -81,7 +92,10 @@ export const CarItem = ({ modelSlug, monthly, minSkuId }: CarItemProps) => {
         </div>
         <button
           type="button"
-          onClick={handleQuoteClick}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleQuoteClick();
+          }}
           className="absolute bottom-5 left-5 inline-flex items-center gap-1 rounded-[12px] bg-white/40 p-2 backdrop-blur-[2px]"
         >
           <span className="text-[14px] font-semibold leading-[18px] text-gray-900">

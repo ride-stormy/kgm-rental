@@ -15,12 +15,16 @@ const config: Config = {
             800: '#1f1e36',
             700: '#272541',
             600: '#2e2c4b',
+            400: '#8b8aa5',
             300: '#bab9d2',
           },
           blue: {
             900: '#0b3e91',
             600: '#0A93FF',
             500: '#5bb7ff',
+          },
+          red: {
+            400: '#de6969',
           },
         },
         blue: {
@@ -51,6 +55,7 @@ const config: Config = {
       boxShadow: {
         'kgm-1dp': '0 2px 4px 0 rgba(53, 60, 63, 0.04)',
         'kgm-4dp': '0 2px 20px 0 rgba(53, 60, 63, 0.08)',
+        'kgm-8dp': '0 4px 32px 0 rgba(53, 60, 63, 0.10)',
       },
     },
   },

@@ -5,7 +5,7 @@ interface ActyonSpecListProps {
 }
 
 export const ActyonSpecList = ({ specs }: ActyonSpecListProps): JSX.Element => (
-  <ul className="flex flex-col gap-2">
+  <ul className="flex flex-col gap-3">
     {specs.map((spec) => (
       <li key={spec} className="flex items-start gap-1 text-[13px] leading-[18px] text-kgm-purple-300">
         <Image

@@ -27,7 +27,7 @@ export const ActyonSpecCard = ({
   onSolidClick,
 }: ActyonSpecCardProps): JSX.Element => (
   <div className="flex w-full flex-col gap-5 rounded-3xl bg-kgm-purple-800 p-5">
-    <div className="flex items-center gap-4">
+    <div className="flex flex-col gap-4">
       <Image
         src={imageSrc}
         alt={imageAlt}
@@ -35,13 +35,13 @@ export const ActyonSpecCard = ({
         height={64}
         className="rounded-lg object-cover"
       />
-      <div className="flex flex-col gap-1">
-        <p className="text-[14px] font-bold text-white">{modelName}</p>
+      <div className="flex flex-col gap-2">
+        <p className="text-[14px] font-bold leading-[18px] text-white">{modelName}</p>
         <p className="text-[26px] font-bold leading-[38px] text-white">{price}</p>
       </div>
+      <div className="h-px w-full bg-kgm-purple-600" aria-hidden="true" />
+      <ActyonSpecList specs={specs} />
     </div>
-    <div className="h-px w-full bg-kgm-purple-600" aria-hidden="true" />
-    <ActyonSpecList specs={specs} />
     <DualCta
       outlineLabel={outlineLabel}
       solidLabel={solidLabel}

@@ -43,6 +43,7 @@ export const TorresComparisonTable = ({
             const isFirstRow = idx === 0;
             const tivoliFontClass = isFirstRow ? 'font-bold' : 'font-medium';
             const torresFontClass = isFirstRow ? 'font-bold' : 'font-medium';
+            const tivoliColorClass = isFirstRow ? 'text-white' : 'text-kgm-red-400';
 
             return (
               <tr key={row.label}>
@@ -53,7 +54,7 @@ export const TorresComparisonTable = ({
                   {row.label}
                 </th>
                 <td
-                  className={`bg-kgm-purple-800 px-2 py-3 text-center text-white ${tivoliFontClass} ${borderClass}`}
+                  className={`bg-kgm-purple-800 px-2 py-3 text-center ${tivoliColorClass} ${tivoliFontClass} ${borderClass}`}
                 >
                   {row.tivoli}
                 </td>

@@ -1,9 +1,9 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useDebounce } from '@/lib/use-debounce';
+import { calculateQuote } from '@/lib/api-client';
 import {
-  computeMonthlyQuote,
   findMinSku,
   groupSkusByTrim,
   PERCENT_STEPS,
@@ -83,6 +83,7 @@ export const useQuoteEstimation = ({
   );
 
   const vehiclePrice = currentSku?.price ?? 0;
+  const abortRef = useRef<AbortController | null>(null);
 
   const modelOptions = useMemo(
     () => products.map((p) => ({ modelSlug: p.slug, name: p.name })),
@@ -152,17 +153,36 @@ export const useQuoteEstimation = ({
     return () => window.removeEventListener(PREFILL_EVENT, onPrefill);
   }, [products]);
 
-  const debouncedState = useDebounce(state, 200);
+  const debouncedState = useDebounce(state, 300);
 
-  const monthly = useMemo(() => {
-    if (vehiclePrice <= 0) return 0;
-    return computeMonthlyQuote({
-      vehiclePrice,
-      contractMonths: debouncedState.contractMonths,
-      annualKm: debouncedState.annualKm,
-      prepaidPercent: debouncedState.prepaidPercent,
-      subsidyPercent: debouncedState.subsidyPercent,
-    });
+  const [monthly, setMonthly] = useState(0);
+
+  useEffect(() => {
+    if (!debouncedState.skuId || vehiclePrice <= 0) return;
+
+    abortRef.current?.abort();
+    const ctrl = new AbortController();
+    abortRef.current = ctrl;
+
+    calculateQuote(
+      {
+        skuId: debouncedState.skuId,
+        contractPeriod: debouncedState.contractMonths,
+        annualMileage: debouncedState.annualKm,
+        prepaidRate: debouncedState.prepaidPercent,
+        depositRate: debouncedState.subsidyPercent,
+      },
+      { signal: ctrl.signal },
+    )
+      .then((res) => {
+        if (ctrl.signal.aborted) return;
+        if (res.success && res.data) setMonthly(res.data.finalMonthlyRent);
+      })
+      .catch((err: unknown) => {
+        if ((err as Error).name !== 'AbortError') setMonthly(0);
+      });
+
+    return () => ctrl.abort();
   }, [debouncedState, vehiclePrice]);
 
   return {

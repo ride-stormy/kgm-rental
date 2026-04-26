@@ -1,4 +1,5 @@
 import localFont from 'next/font/local';
+import { Providers } from './providers';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import './globals.css';
@@ -30,7 +31,12 @@ export const metadata: Metadata = {
   description: 'KGM 차량 장기렌트 견적/재고 플랫폼 (Stage A)',
 };
 
-export default function RootLayout({ children }: { children: ReactNode }): JSX.Element {
+interface RootLayoutProps {
+  children: ReactNode;
+  modal: ReactNode;
+}
+
+export default function RootLayout({ children, modal }: RootLayoutProps): JSX.Element {
   return (
     <html lang="ko" className={gmarketSans.variable}>
       <head>
@@ -40,7 +46,12 @@ export default function RootLayout({ children }: { children: ReactNode }): JSX.E
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
         />
       </head>
-      <body className="min-h-screen bg-slate-50 antialiased">{children}</body>
+      <body className="min-h-screen bg-slate-50 antialiased">
+        <Providers>
+          {children}
+          {modal}
+        </Providers>
+      </body>
     </html>
   );
 }
