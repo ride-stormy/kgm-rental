@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { headers } from 'next/headers';
 import { HydrationBoundary, QueryClient, dehydrate } from '@tanstack/react-query';
 import { ActyonSection } from './_components/landing/ActyonSection';
